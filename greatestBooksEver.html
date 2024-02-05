@@ -1,0 +1,4532 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <script>
+   var _ez_ab_test = 'mod1'
+  </script>
+  <script>
+   var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};
+  </script>
+  <script>
+   var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}
+  </script>
+  <script>
+   function _setEzCookies(ezConsentData){var cookies=[{name:"ezoadgid_528756",value:"-1; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 04:21:59 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezoref_528756",value:"; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 05:51:59 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezosuibasgeneris-1",value:"2bc5d766-0852-4904-7a0f-7c09feb094cc; Path=/; Domain=thegreatestbooks.org; Expires=Tue, 04 Feb 2025 03:51:59 UTC; Secure; SameSite=None",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezoab_528756",value:"mod1; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 05:51:59 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"active_template::528756",value:"pub_site.1707105119; Path=/; Domain=thegreatestbooks.org; Expires=Wed, 07 Feb 2024 03:51:59 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"ezopvc_528756",value:"1; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 04:21:59 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"lp_528756",value:"https://thegreatestbooks.org/index?_nospa=true; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 04:21:59 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"ezovuuidtime_528756",value:"1707105119; Path=/; Domain=thegreatestbooks.org; Expires=Wed, 07 Feb 2024 03:51:59 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezovuuid_528756",value:"ce3c0fe6-f9e1-4fe1-7e34-47df7f3f8245; Path=/; Domain=thegreatestbooks.org; Expires=Mon, 05 Feb 2024 04:21:59 UTC",tcfCategory:"understand_audiences",isEzoic:"true",}];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" data-pagespeed-no-defer="">
+   var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;window.__ezScriptHost="//www.ezojs.com";__ez.queue=function(){var e=0,i=0,t=[],n=!1,o=[],r=[],s=!0,a=function(e,i,n,o,r,s,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,d=this;this.name=e,this.funcName=i,this.parameters=null===n?null:p(n)?n:[n],this.isBlock=o,this.blockedBy=r,this.deleteWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),d.isInitialized=!0,d.isComplete=!0,f("... func.apply: "+e);var i=d.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[d.funcName]),null!=n&&n.apply(null,this.parameters),!0===d.deleteWhenComplete&&delete t[e],!0===d.isBlock&&(f("----- F'D: "+d.name),u())}},l=function(e,i,t,n,o,r,s){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=s,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)&&"banger.js"!==this.name?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===r&&(t.defer=!0),t.onerror=function(){var e={url:window.location.href,name:l.name,path:l.path,user_agent:window.navigator.userAgent};"undefined"!=typeof _ezaq&&(e.pageview_id=_ezaq.page_view_id);var i=encodeURIComponent(JSON.stringify(e)),t=new XMLHttpRequest;t.open("GET","//g.ezoic.net/ezqlog?d="+i,!0),t.send(),f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&u()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&u())},i.getElementsByTagName("head")[0].appendChild(t)}},d=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function c(e){!0!==h(e)&&0!=s&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(p(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function u(){++e>200||(f("let's go"),m(o),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function p(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),u()}),5e3)}),!1),{addFile:function(e,i,n,s,a,d,h,f,u){var m=new l(e,i,n,s,a,d,h,u);!0===f?o[e]=m:r[e]=m,t[e]=m,c(m)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,c(n)},addFunc:function(e,n,s,l,d,h,f,u,m,p){!0===h&&(e=e+"_"+i++);var w=new a(e,n,s,l,d,f,u,p);!0===m?o[e]=w:r[e]=w,t[e]=w,c(w)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),r[e]=o,t[e]=o,c(o)},items:t,processAll:u,setallowLoad:function(e){s=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new d(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-0&cb=4', true, [], true, false, true, false);__ez.queue.addFile('/parsonsmaize/abilene.js', '/parsonsmaize/abilene.js?gcb=195-0&cb=32', true, [], true, false, true, false);
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" type="text/javascript">
+   window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ad_cache_level":1,"domain_id":528756,"ezcache_level":0,"ezcache_skip_code":0,"has_bad_image":0,"has_bad_words":0,"is_sitespeed":0,"lt_cache_level":0,"page_view_id":"fac48393-8ae4-483a-5de7-8e4f8fb52b3c","response_size_orig":102818,"response_time_orig":633,"template_id":5,"url":"https://thegreatestbooks.org/index?_nospa=true","visit_uuid":"ce3c0fe6-f9e1-4fe1-7e34-47df7f3f8245","word_count":0,"worst_bad_word_level":0});__ez.queue.markLoaded('ezaqBaseReady');
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" data-pagespeed-no-defer="">
+   __ez.queue.addFile('/parsonsmaize/mulvane.js', '/parsonsmaize/mulvane.js?gcb=195-0&cb=6', true, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/parsonsmaize/olathe.js', '/parsonsmaize/olathe.js?gcb=195-0&cb=23', false, ['/parsonsmaize/abilene.js','/parsonsmaize/mulvane.js'], true, false, true, false);__ez.queue.addFile('/porpoiseant/et.js', '/porpoiseant/et.js?gcb=195-0&cb=2', false, [], true, false, true, false);!function(){var e=function(e,i,t){var o=[],n=null;return{Add:function(t,d){var a=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;if(__ez.dot.isDefined(t)&&__ez.dot.isValid(d))if(n==t&&o.length>0&&o[o.length-1].data.length+d.length<=5)o[o.length-1].data=o[o.length-1].data.concat(__ez.dot.dataToStr(d));else{var _={type:e,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(d)};_[i]=t,a&&a.hasOwnProperty("impression_id")&&a.hasOwnProperty("ad_unit")&&(_.impression_id=a.impression_id.toString(),_.unit=a.ad_unit),o.push(_),n=t}},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(o)&&o.length>0)for(;o.length>0;){var e=5;e>o.length&&(e=o.length);var i=o.splice(0,e),n=__ez.dot.getURL(t)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(i));__ez.dot.Fire(n)}o=[]}}}};__ez.vep=e("video","video_impression_id","/detroitchicago/grapefruit.gif"),__ez.vaep=e("video-ad","video_ad_impression_id","/porpoiseant/lemon.gif"),__ez.osvaep=e("outstream-video-ad","video_ad_impression_id","/porpoiseant/tangerine.gif")}();
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" data-pagespeed-no-defer="">
+   __ez.queue.addFile('/detroitchicago/wichita.js', '/detroitchicago/wichita.js?gcb=195-0&cb=12', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-0&cb=7', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/vista.js', '/detroitchicago/vista.js?gcb=195-0&cb=6', false, ['/parsonsmaize/abilene.js'], true, false, true, false);
+  </script>
+  <base href="https://thegreatestbooks.org/index?_nospa=true"/>
+  <title>
+   The Greatest Books of All Time
+  </title>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="authenticity_token" name="csrf-param"/>
+  <meta content="Xpw_zRg1x2G016avJd9GLky8ESjAmaj-wJEFSBqJ4BVixHYCyuDy1eaMsZxe7DZ2D4aSCFF2SXk6pebK7UPhgw" name="csrf-token"/>
+  <meta content="reload" name="turbo-visit-control"/>
+  <meta content="The Greatest Books of All Time This list is generated by aggregating 175 lists from various critics, authors and experts." name="description"/>
+  <meta content="wss://ws.thegreatestbooks.club/cable" name="action-cable-url"/>
+  <link href="/assets/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="/assets/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="/assets/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="/assets/favicon/site.webmanifest" rel="manifest"/>
+  <link data-turbo-track="reload" href="/assets/application-5dc7b1525be7b76d231f31d53a9eafa1dc82b8ff6d580b984511f4daab97301c.css" rel="stylesheet"/>
+  <script data-turbo-track="reload" defer="defer" src="/assets/application-2404f3a84e8dc042ebfb7a454fe2720528ac2178abe5114fb6969561a6373c69.js" type="module">
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&amp;display=swap" rel="stylesheet"/>
+  <link href="https://thegreatestbooks.org/index?_nospa=true" rel="canonical"/>
+  <script type="text/javascript">
+   var ezoTemplate = 'orig_site';
+var ezouid = '1';
+var ezoFormfactor = '1';
+  </script>
+  <script data-ezscrex="false" type="text/javascript">
+   var soc_app_id = '0';
+var did = 528756;
+var ezdomain = 'thegreatestbooks.org';
+var ezoicSearchable = 1;
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" type="text/javascript">
+   var _ezaq = window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ab_test_id":"mod1","ad_cache_level":1,"ad_lazyload_version":0,"ad_load_version":0,"city":"Janesville","country":"US","days_since_last_visit":-1,"domain_id":528756,"engaged_time_visit":0,"ezcache_level":0,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"is_embed":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"metro_code":669,"page_ad_positions":"","page_view_count":0,"page_view_id":"fac48393-8ae4-483a-5de7-8e4f8fb52b3c","position_selection_id":0,"postal_code":"53546","pv_event_count":0,"response_size_orig":102818,"response_time_orig":633,"serverid":"i-0deddb7c5f443e0fd","state":"WI","t_epoch":1707105119,"template_id":5,"time_on_site_visit":0,"url":"https://thegreatestbooks.org/index?_nospa=true","visit_uuid":"ce3c0fe6-f9e1-4fe1-7e34-47df7f3f8245","word_count":3590,"worst_bad_word_level":0});var _ezExtraQueries = "&ez_orig=1";
+  </script>
+  <script data-cfasync="false" data-ezscrex="false" data-pagespeed-no-defer="">
+   function create_ezolpl() {
+	var d = new Date();
+	d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
+	var expires = "expires=" + d.toUTCString();
+	__ez.ck.setByCat(
+	  "ezux_lpl_528756",
+	  new Date().getTime() +
+		"|" +
+		_ezaq.page_view_id +
+		"|" +
+		_ezaq.is_return_visitor +
+		"; " +
+		expires,
+	  "understand_audiences",
+	  false
+	);
+  }
+  function attach_ezolpl() {
+	if (document.readyState === "complete") {
+	  create_ezolpl();
+	  return;
+	}
+	window.addEventListener("load", create_ezolpl);
+  }  
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", null, false, ['/detroitchicago/boise.js'], true, false, false, false);
+  </script>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg bg-light">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+     <img alt="The Greatest Books Logo" src="/assets/logo2-1a2f87c325e9791c89cc50994578955eea237d8b3177fd7e0402234c4e61fd5e.gif" style="width: 25px;"/>
+     The Greatest Books
+    </a>
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 small-text">
+      <li class="nav-item">
+       <a class="nav-link" href="/rankings">
+        Rankings
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="/lists">
+        Lists
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="/genres">
+        Genres
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="/news">
+        News
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="/user_lists">
+        My Lists
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="/reviews">
+        My Reviews
+       </a>
+      </li>
+     </ul>
+     <form action="/books/search" class="d-flex small-text" method="get">
+      <input aria-label="Search" class="form-control me-2 form-control-sm" name="query" placeholder="Search" type="search"/>
+      <button class="btn btn-primary btn-sm" type="submit">
+       <i class="bi bi-search">
+       </i>
+      </button>
+     </form>
+     <turbo-cable-stream-source channel="Turbo::StreamsChannel" signed-stream-name="ImF1dGhfc3RhdHVzIg==--134b0d10dda293ba590bf8b8c84827811b2a39d93bb8d98e149f48d0c57fc7cf">
+     </turbo-cable-stream-source>
+     <div class="pb-3 pb-md-0" id="auth-status-container">
+      <turbo-frame id="auth-status-frame" src="/users/auth_status">
+      </turbo-frame>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <div class="container">
+   <div class="main">
+    <div class="row mt-3 mb-2">
+     <!-- First Column: Title and Description -->
+     <div class="col-md-8">
+      <h1>
+       The Greatest Books of All Time
+      </h1>
+      <!-- Link to trigger modal -->
+      <p class="d-md-none">
+       <a data-bs-target="#mobileModal" data-bs-toggle="modal" href="#">
+        Click to learn how this list is calculated.
+       </a>
+      </p>
+      <p class="d-none d-md-block">
+       This list represents a comprehensive and trusted collection of the greatest books in literature. 
+    Developed through a specialized algorithm, it brings together 175 'best of' book lists to form a
+    definitive guide to the world's most acclaimed literary works. For those interested in how these books are chosen, 
+    additional details about the selection process can be found on the
+       <a alt="Rankings Page" href="/rankings">
+        rankings page
+       </a>
+       .
+      </p>
+     </div>
+     <!-- Second Column: Survey in a Card -->
+     <div class="col-md-4">
+      <turbo-frame id="show_survey" loading="lazy" src="/show_survey">
+      </turbo-frame>
+     </div>
+    </div>
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="mobileModalLabel" class="modal fade" id="mobileModal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h5 class="modal-title" id="mobileModalLabel">
+         List Calculation Details
+        </h5>
+        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+        </button>
+       </div>
+       <div class="modal-body">
+        This list represents a comprehensive and trusted collection of the greatest books in literature. Developed through a specialized algorithm, it brings together 175 'best of' book lists to form a
+        definitive guide to the world's most acclaimed literary works. For those interested in how these books are chosen, additional details about our selection process can be found on our
+        <a alt="Rankings Page" href="/rankings">
+         rankings page
+        </a>
+        .
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-4 order-lg-2 order-1">
+      <div class="d-block d-sm-none bg-light p-2 d-flex align-items-center">
+       <span class="me-2">
+        Filter by:
+       </span>
+       <!-- Genres Button -->
+       <a class="btn btn-primary me-2" data-bs-target="#genre-modal" data-bs-toggle="modal" href="#">
+        Genres
+       </a>
+       <!-- Published Dates Button -->
+       <a class="btn btn-primary me-2" data-bs-target="#date-filter-modal" data-bs-toggle="modal" href="#">
+        Dates
+       </a>
+       <!-- Countries Button -->
+       <a class="btn btn-primary" data-bs-target="#country-modal" data-bs-toggle="modal" href="#">
+        Countries
+       </a>
+      </div>
+      <div class="row category-row d-none d-sm-block">
+       <div class="d-flex bg-secondary pt-2 align-items-center border rounded text-white mb-2">
+        <h3 class="fs-5">
+         Genres
+        </h3>
+       </div>
+       <!-- Are there already categories selected? -->
+       <div class="row categories-row">
+        <!-- Search input row -->
+        <div class="col-12 mb-3 autocomplete-container">
+         <input class="form-control category-autocomplete" id="non-mobile-category-filter" placeholder="Search for Genres" type="text"/>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="adventure-bce047db-9f67-4195-b654-cffb3e8493b5" href="/the-greatest/adventure-bce047db-9f67-4195-b654-cffb3e8493b5/books">
+          Adventure (452)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="allegorical" href="/the-greatest/allegorical/books">
+          Allegorical (227)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="american-history" href="/the-greatest/american-history/books">
+          American History (289)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="anthologies" href="/the-greatest/anthologies/books">
+          Anthologies (290)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="autobiography" href="/the-greatest/autobiography/books">
+          Autobiography (441)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="biography" href="/the-greatest/biography/books">
+          Biography (353)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="children-s-books" href="/the-greatest/children-s-books/books">
+          Children's books (181)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="coming-of-age" href="/the-greatest/coming-of-age/books">
+          Coming of age (747)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="contemporary" href="/the-greatest/contemporary/books">
+          Contemporary (631)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="crime" href="/the-greatest/crime/books">
+          Crime (329)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="drama" href="/the-greatest/drama/books">
+          Drama (789)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="experimental" href="/the-greatest/experimental/books">
+          Experimental (258)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="family" href="/the-greatest/family/books">
+          Family (483)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="fantasy" href="/the-greatest/fantasy/books">
+          Fantasy (354)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="fiction" href="/the-greatest/fiction/books">
+          Fiction (3392)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="friendship" href="/the-greatest/friendship/books">
+          Friendship (222)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="historical-fiction" href="/the-greatest/historical-fiction/books">
+          Historical fiction (1152)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="history" href="/the-greatest/history/books">
+          History (510)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="humor" href="/the-greatest/humor/books">
+          Humor (321)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="magical-realism" href="/the-greatest/magical-realism/books">
+          Magical Realism (196)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="modernist" href="/the-greatest/modernist/books">
+          Modernist (262)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="mystery" href="/the-greatest/mystery/books">
+          Mystery (344)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="nonfiction" href="/the-greatest/nonfiction/books">
+          Nonfiction (1426)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="plays" href="/the-greatest/plays/books">
+          Plays (281)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="poetry" href="/the-greatest/poetry/books">
+          Poetry (662)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="political" href="/the-greatest/political/books">
+          Political (565)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="postmodern" href="/the-greatest/postmodern/books">
+          Postmodern (222)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="psychological" href="/the-greatest/psychological/books">
+          Psychological (781)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="romance" href="/the-greatest/romance/books">
+          Romance (291)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="satire" href="/the-greatest/satire/books">
+          Satire (538)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="science-fiction" href="/the-greatest/science-fiction/books">
+          Science fiction (403)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="short-stories-3b05c143-3060-4ba0-8c12-52547523f50e" href="/the-greatest/short-stories-3b05c143-3060-4ba0-8c12-52547523f50e/books">
+          Short Stories (272)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="social-commentary" href="/the-greatest/social-commentary/books">
+          Social &amp; Cultural Fiction (1026)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="metaphysical-visionary-fiction" href="/the-greatest/metaphysical-visionary-fiction/books">
+          Speculative Fiction (294)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="category-link d-block mb-2" data-slug="suspense" href="/the-greatest/suspense/books">
+          Suspense (397)
+         </a>
+         <a class="category-link d-block mb-2" data-slug="thrillers" href="/the-greatest/thrillers/books">
+          Thrillers (253)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="fw-semibold" href="/genres">
+          View all genres
+         </a>
+        </div>
+       </div>
+       <!-- Are there already countries selected? -->
+       <div class="d-flex bg-secondary pt-2 align-items-center border rounded text-white mt-4 mb-2">
+        <h3 class="fs-5">
+         Countries
+        </h3>
+       </div>
+       <div class="row countries-row">
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/american/authors">
+          American (2713)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/argentinian/authors">
+          Argentinian (23)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/australian/authors">
+          Australian (60)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/austrian/authors">
+          Austrian (83)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/british/authors">
+          British (1396)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/canadian/authors">
+          Canadian (97)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/chinese/authors">
+          Chinese (43)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/colombian/authors">
+          Colombian (25)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/czech/authors">
+          Czech (23)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/dutch/authors">
+          Dutch (24)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/egyptian/authors">
+          Egyptian (18)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/english/authors">
+          English (35)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/french/authors">
+          French (428)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/german/authors">
+          German (229)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/greek/authors">
+          Greek (94)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/hungarian/authors">
+          Hungarian (62)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/indian/authors">
+          Indian (55)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/irish/authors">
+          Irish (130)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/israeli/authors">
+          Israeli (24)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/italian/authors">
+          Italian (131)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/japanese/authors">
+          Japanese (56)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/mexican/authors">
+          Mexican (22)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/multiple/authors">
+          Multiple (19)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/new-zealander/authors">
+          New Zealander (31)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/nigerian/authors">
+          Nigerian (32)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/norwegian/authors">
+          Norwegian (33)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/polish/authors">
+          Polish (48)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/portuguese/authors">
+          Portuguese (24)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/roman/authors">
+          Roman (28)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/russian/authors">
+          Russian (190)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/scottish/authors">
+          Scottish (46)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/south-african/authors">
+          South African (42)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/spanish/authors">
+          Spanish (106)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/swedish/authors">
+          Swedish (59)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/swiss/authors">
+          Swiss (29)
+         </a>
+         <a class="d-block mb-2" href="/the-greatest-books/written-by/unknown/authors">
+          Unknown (123)
+         </a>
+        </div>
+        <div class="col-6">
+         <a class="fw-semibold" href="/countries">
+          View all countries
+         </a>
+        </div>
+       </div>
+       <div class="d-flex bg-secondary pt-2 align-items-center border rounded text-white mt-4 mb-2">
+        <h3 class="fs-5">
+         Date Range
+        </h3>
+       </div>
+       <form accept-charset="UTF-8" action="/" class="date-filter-form" id="date-filter-form" method="get">
+        <input autocomplete="off" class="url-without-dates" id="url_without_dates" name="url_without_dates" type="hidden" value="/"/>
+        <div class="mb-3 row">
+         <label class="col-form-label col-sm-2" for="date_start">
+          Start
+         </label>
+         <div class="col-sm-10">
+          <select class="form-select date-start-input" id="date-start" name="date_start">
+           <option value="">
+            Any
+           </option>
+           <option value="2020">
+            2020
+           </option>
+           <option value="2015">
+            2015
+           </option>
+           <option value="2010">
+            2010
+           </option>
+           <option value="2005">
+            2005
+           </option>
+           <option value="2000">
+            2000
+           </option>
+           <option value="1995">
+            1995
+           </option>
+           <option value="1990">
+            1990
+           </option>
+           <option value="1985">
+            1985
+           </option>
+           <option value="1980">
+            1980
+           </option>
+           <option value="1975">
+            1975
+           </option>
+           <option value="1970">
+            1970
+           </option>
+           <option value="1965">
+            1965
+           </option>
+           <option value="1960">
+            1960
+           </option>
+           <option value="1955">
+            1955
+           </option>
+           <option value="1950">
+            1950
+           </option>
+           <option value="1945">
+            1945
+           </option>
+           <option value="1940">
+            1940
+           </option>
+           <option value="1935">
+            1935
+           </option>
+           <option value="1930">
+            1930
+           </option>
+           <option value="1925">
+            1925
+           </option>
+           <option value="1920">
+            1920
+           </option>
+           <option value="1915">
+            1915
+           </option>
+           <option value="1910">
+            1910
+           </option>
+           <option value="1905">
+            1905
+           </option>
+           <option value="1900">
+            1900
+           </option>
+           <option value="1895">
+            1895
+           </option>
+           <option value="1890">
+            1890
+           </option>
+           <option value="1885">
+            1885
+           </option>
+           <option value="1880">
+            1880
+           </option>
+           <option value="1875">
+            1875
+           </option>
+           <option value="1870">
+            1870
+           </option>
+           <option value="1865">
+            1865
+           </option>
+           <option value="1860">
+            1860
+           </option>
+           <option value="1855">
+            1855
+           </option>
+           <option value="1850">
+            1850
+           </option>
+           <option value="1845">
+            1845
+           </option>
+           <option value="1840">
+            1840
+           </option>
+           <option value="1835">
+            1835
+           </option>
+           <option value="1830">
+            1830
+           </option>
+           <option value="1825">
+            1825
+           </option>
+           <option value="1820">
+            1820
+           </option>
+           <option value="1815">
+            1815
+           </option>
+           <option value="1810">
+            1810
+           </option>
+           <option value="1805">
+            1805
+           </option>
+           <option value="1800">
+            1800
+           </option>
+           <option value="1795">
+            1795
+           </option>
+           <option value="1790">
+            1790
+           </option>
+           <option value="1785">
+            1785
+           </option>
+           <option value="1780">
+            1780
+           </option>
+           <option value="1775">
+            1775
+           </option>
+           <option value="1770">
+            1770
+           </option>
+           <option value="1765">
+            1765
+           </option>
+           <option value="1760">
+            1760
+           </option>
+           <option value="1755">
+            1755
+           </option>
+           <option value="1750">
+            1750
+           </option>
+           <option value="1745">
+            1745
+           </option>
+           <option value="1740">
+            1740
+           </option>
+           <option value="1735">
+            1735
+           </option>
+           <option value="1730">
+            1730
+           </option>
+           <option value="1725">
+            1725
+           </option>
+           <option value="1720">
+            1720
+           </option>
+           <option value="1715">
+            1715
+           </option>
+           <option value="1710">
+            1710
+           </option>
+           <option value="1705">
+            1705
+           </option>
+           <option value="1700">
+            1700
+           </option>
+           <option value="1695">
+            1695
+           </option>
+           <option value="1690">
+            1690
+           </option>
+           <option value="1685">
+            1685
+           </option>
+           <option value="1680">
+            1680
+           </option>
+           <option value="1675">
+            1675
+           </option>
+           <option value="1670">
+            1670
+           </option>
+           <option value="1665">
+            1665
+           </option>
+           <option value="1660">
+            1660
+           </option>
+           <option value="1655">
+            1655
+           </option>
+           <option value="1650">
+            1650
+           </option>
+           <option value="1645">
+            1645
+           </option>
+           <option value="1640">
+            1640
+           </option>
+           <option value="1635">
+            1635
+           </option>
+           <option value="1630">
+            1630
+           </option>
+           <option value="1625">
+            1625
+           </option>
+           <option value="1620">
+            1620
+           </option>
+           <option value="1615">
+            1615
+           </option>
+           <option value="1610">
+            1610
+           </option>
+           <option value="1605">
+            1605
+           </option>
+           <option value="1600">
+            1600
+           </option>
+           <option value="1595">
+            1595
+           </option>
+           <option value="1590">
+            1590
+           </option>
+           <option value="1585">
+            1585
+           </option>
+           <option value="1580">
+            1580
+           </option>
+           <option value="1575">
+            1575
+           </option>
+           <option value="1570">
+            1570
+           </option>
+           <option value="1565">
+            1565
+           </option>
+           <option value="1560">
+            1560
+           </option>
+           <option value="1555">
+            1555
+           </option>
+           <option value="1550">
+            1550
+           </option>
+           <option value="1545">
+            1545
+           </option>
+           <option value="1540">
+            1540
+           </option>
+           <option value="1535">
+            1535
+           </option>
+           <option value="1530">
+            1530
+           </option>
+           <option value="1525">
+            1525
+           </option>
+           <option value="1520">
+            1520
+           </option>
+           <option value="1515">
+            1515
+           </option>
+           <option value="1510">
+            1510
+           </option>
+           <option value="1505">
+            1505
+           </option>
+           <option value="1500">
+            1500
+           </option>
+           <option value="1495">
+            1495
+           </option>
+           <option value="1490">
+            1490
+           </option>
+           <option value="1485">
+            1485
+           </option>
+           <option value="1480">
+            1480
+           </option>
+           <option value="1475">
+            1475
+           </option>
+           <option value="1470">
+            1470
+           </option>
+           <option value="1465">
+            1465
+           </option>
+           <option value="1460">
+            1460
+           </option>
+           <option value="1455">
+            1455
+           </option>
+           <option value="1450">
+            1450
+           </option>
+           <option value="1445">
+            1445
+           </option>
+           <option value="1440">
+            1440
+           </option>
+           <option value="1435">
+            1435
+           </option>
+           <option value="1430">
+            1430
+           </option>
+           <option value="1425">
+            1425
+           </option>
+           <option value="1420">
+            1420
+           </option>
+           <option value="1415">
+            1415
+           </option>
+           <option value="1410">
+            1410
+           </option>
+           <option value="1405">
+            1405
+           </option>
+           <option value="1400">
+            1400
+           </option>
+           <option value="1395">
+            1395
+           </option>
+           <option value="1390">
+            1390
+           </option>
+           <option value="1385">
+            1385
+           </option>
+           <option value="1380">
+            1380
+           </option>
+           <option value="1375">
+            1375
+           </option>
+           <option value="1370">
+            1370
+           </option>
+           <option value="1365">
+            1365
+           </option>
+           <option value="1360">
+            1360
+           </option>
+           <option value="1355">
+            1355
+           </option>
+           <option value="1350">
+            1350
+           </option>
+           <option value="1345">
+            1345
+           </option>
+           <option value="1340">
+            1340
+           </option>
+           <option value="1335">
+            1335
+           </option>
+           <option value="1330">
+            1330
+           </option>
+           <option value="1325">
+            1325
+           </option>
+           <option value="1320">
+            1320
+           </option>
+           <option value="1315">
+            1315
+           </option>
+           <option value="1310">
+            1310
+           </option>
+           <option value="1305">
+            1305
+           </option>
+           <option value="1300">
+            1300
+           </option>
+           <option value="1295">
+            1295
+           </option>
+           <option value="1290">
+            1290
+           </option>
+           <option value="1285">
+            1285
+           </option>
+           <option value="1280">
+            1280
+           </option>
+           <option value="1275">
+            1275
+           </option>
+           <option value="1270">
+            1270
+           </option>
+           <option value="1265">
+            1265
+           </option>
+           <option value="1260">
+            1260
+           </option>
+           <option value="1255">
+            1255
+           </option>
+           <option value="1250">
+            1250
+           </option>
+           <option value="1245">
+            1245
+           </option>
+           <option value="1240">
+            1240
+           </option>
+           <option value="1235">
+            1235
+           </option>
+           <option value="1230">
+            1230
+           </option>
+           <option value="1225">
+            1225
+           </option>
+           <option value="1220">
+            1220
+           </option>
+           <option value="1215">
+            1215
+           </option>
+           <option value="1210">
+            1210
+           </option>
+           <option value="1205">
+            1205
+           </option>
+           <option value="1200">
+            1200
+           </option>
+           <option value="1195">
+            1195
+           </option>
+           <option value="1190">
+            1190
+           </option>
+           <option value="1185">
+            1185
+           </option>
+           <option value="1180">
+            1180
+           </option>
+           <option value="1175">
+            1175
+           </option>
+           <option value="1170">
+            1170
+           </option>
+           <option value="1165">
+            1165
+           </option>
+           <option value="1160">
+            1160
+           </option>
+           <option value="1155">
+            1155
+           </option>
+           <option value="1150">
+            1150
+           </option>
+           <option value="1145">
+            1145
+           </option>
+           <option value="1140">
+            1140
+           </option>
+           <option value="1135">
+            1135
+           </option>
+           <option value="1130">
+            1130
+           </option>
+           <option value="1125">
+            1125
+           </option>
+           <option value="1120">
+            1120
+           </option>
+           <option value="1115">
+            1115
+           </option>
+           <option value="1110">
+            1110
+           </option>
+           <option value="1105">
+            1105
+           </option>
+           <option value="1100">
+            1100
+           </option>
+           <option value="1095">
+            1095
+           </option>
+           <option value="1090">
+            1090
+           </option>
+           <option value="1085">
+            1085
+           </option>
+           <option value="1080">
+            1080
+           </option>
+           <option value="1075">
+            1075
+           </option>
+           <option value="1070">
+            1070
+           </option>
+           <option value="1065">
+            1065
+           </option>
+           <option value="1060">
+            1060
+           </option>
+           <option value="1055">
+            1055
+           </option>
+           <option value="1050">
+            1050
+           </option>
+           <option value="1045">
+            1045
+           </option>
+           <option value="1040">
+            1040
+           </option>
+           <option value="1035">
+            1035
+           </option>
+           <option value="1030">
+            1030
+           </option>
+           <option value="1025">
+            1025
+           </option>
+           <option value="1020">
+            1020
+           </option>
+           <option value="1015">
+            1015
+           </option>
+           <option value="1010">
+            1010
+           </option>
+           <option value="1005">
+            1005
+           </option>
+           <option value="1000">
+            1000
+           </option>
+          </select>
+         </div>
+        </div>
+        <div class="mb-3 row">
+         <label class="col-form-label col-sm-2" for="date_end">
+          End
+         </label>
+         <div class="col-sm-10">
+          <select class="form-select date-end-input" id="date-end" name="date_end">
+           <option value="">
+            Any
+           </option>
+           <option value="2020">
+            2020
+           </option>
+           <option value="2015">
+            2015
+           </option>
+           <option value="2010">
+            2010
+           </option>
+           <option value="2005">
+            2005
+           </option>
+           <option value="2000">
+            2000
+           </option>
+           <option value="1995">
+            1995
+           </option>
+           <option value="1990">
+            1990
+           </option>
+           <option value="1985">
+            1985
+           </option>
+           <option value="1980">
+            1980
+           </option>
+           <option value="1975">
+            1975
+           </option>
+           <option value="1970">
+            1970
+           </option>
+           <option value="1965">
+            1965
+           </option>
+           <option value="1960">
+            1960
+           </option>
+           <option value="1955">
+            1955
+           </option>
+           <option value="1950">
+            1950
+           </option>
+           <option value="1945">
+            1945
+           </option>
+           <option value="1940">
+            1940
+           </option>
+           <option value="1935">
+            1935
+           </option>
+           <option value="1930">
+            1930
+           </option>
+           <option value="1925">
+            1925
+           </option>
+           <option value="1920">
+            1920
+           </option>
+           <option value="1915">
+            1915
+           </option>
+           <option value="1910">
+            1910
+           </option>
+           <option value="1905">
+            1905
+           </option>
+           <option value="1900">
+            1900
+           </option>
+           <option value="1895">
+            1895
+           </option>
+           <option value="1890">
+            1890
+           </option>
+           <option value="1885">
+            1885
+           </option>
+           <option value="1880">
+            1880
+           </option>
+           <option value="1875">
+            1875
+           </option>
+           <option value="1870">
+            1870
+           </option>
+           <option value="1865">
+            1865
+           </option>
+           <option value="1860">
+            1860
+           </option>
+           <option value="1855">
+            1855
+           </option>
+           <option value="1850">
+            1850
+           </option>
+           <option value="1845">
+            1845
+           </option>
+           <option value="1840">
+            1840
+           </option>
+           <option value="1835">
+            1835
+           </option>
+           <option value="1830">
+            1830
+           </option>
+           <option value="1825">
+            1825
+           </option>
+           <option value="1820">
+            1820
+           </option>
+           <option value="1815">
+            1815
+           </option>
+           <option value="1810">
+            1810
+           </option>
+           <option value="1805">
+            1805
+           </option>
+           <option value="1800">
+            1800
+           </option>
+           <option value="1795">
+            1795
+           </option>
+           <option value="1790">
+            1790
+           </option>
+           <option value="1785">
+            1785
+           </option>
+           <option value="1780">
+            1780
+           </option>
+           <option value="1775">
+            1775
+           </option>
+           <option value="1770">
+            1770
+           </option>
+           <option value="1765">
+            1765
+           </option>
+           <option value="1760">
+            1760
+           </option>
+           <option value="1755">
+            1755
+           </option>
+           <option value="1750">
+            1750
+           </option>
+           <option value="1745">
+            1745
+           </option>
+           <option value="1740">
+            1740
+           </option>
+           <option value="1735">
+            1735
+           </option>
+           <option value="1730">
+            1730
+           </option>
+           <option value="1725">
+            1725
+           </option>
+           <option value="1720">
+            1720
+           </option>
+           <option value="1715">
+            1715
+           </option>
+           <option value="1710">
+            1710
+           </option>
+           <option value="1705">
+            1705
+           </option>
+           <option value="1700">
+            1700
+           </option>
+           <option value="1695">
+            1695
+           </option>
+           <option value="1690">
+            1690
+           </option>
+           <option value="1685">
+            1685
+           </option>
+           <option value="1680">
+            1680
+           </option>
+           <option value="1675">
+            1675
+           </option>
+           <option value="1670">
+            1670
+           </option>
+           <option value="1665">
+            1665
+           </option>
+           <option value="1660">
+            1660
+           </option>
+           <option value="1655">
+            1655
+           </option>
+           <option value="1650">
+            1650
+           </option>
+           <option value="1645">
+            1645
+           </option>
+           <option value="1640">
+            1640
+           </option>
+           <option value="1635">
+            1635
+           </option>
+           <option value="1630">
+            1630
+           </option>
+           <option value="1625">
+            1625
+           </option>
+           <option value="1620">
+            1620
+           </option>
+           <option value="1615">
+            1615
+           </option>
+           <option value="1610">
+            1610
+           </option>
+           <option value="1605">
+            1605
+           </option>
+           <option value="1600">
+            1600
+           </option>
+           <option value="1595">
+            1595
+           </option>
+           <option value="1590">
+            1590
+           </option>
+           <option value="1585">
+            1585
+           </option>
+           <option value="1580">
+            1580
+           </option>
+           <option value="1575">
+            1575
+           </option>
+           <option value="1570">
+            1570
+           </option>
+           <option value="1565">
+            1565
+           </option>
+           <option value="1560">
+            1560
+           </option>
+           <option value="1555">
+            1555
+           </option>
+           <option value="1550">
+            1550
+           </option>
+           <option value="1545">
+            1545
+           </option>
+           <option value="1540">
+            1540
+           </option>
+           <option value="1535">
+            1535
+           </option>
+           <option value="1530">
+            1530
+           </option>
+           <option value="1525">
+            1525
+           </option>
+           <option value="1520">
+            1520
+           </option>
+           <option value="1515">
+            1515
+           </option>
+           <option value="1510">
+            1510
+           </option>
+           <option value="1505">
+            1505
+           </option>
+           <option value="1500">
+            1500
+           </option>
+           <option value="1495">
+            1495
+           </option>
+           <option value="1490">
+            1490
+           </option>
+           <option value="1485">
+            1485
+           </option>
+           <option value="1480">
+            1480
+           </option>
+           <option value="1475">
+            1475
+           </option>
+           <option value="1470">
+            1470
+           </option>
+           <option value="1465">
+            1465
+           </option>
+           <option value="1460">
+            1460
+           </option>
+           <option value="1455">
+            1455
+           </option>
+           <option value="1450">
+            1450
+           </option>
+           <option value="1445">
+            1445
+           </option>
+           <option value="1440">
+            1440
+           </option>
+           <option value="1435">
+            1435
+           </option>
+           <option value="1430">
+            1430
+           </option>
+           <option value="1425">
+            1425
+           </option>
+           <option value="1420">
+            1420
+           </option>
+           <option value="1415">
+            1415
+           </option>
+           <option value="1410">
+            1410
+           </option>
+           <option value="1405">
+            1405
+           </option>
+           <option value="1400">
+            1400
+           </option>
+           <option value="1395">
+            1395
+           </option>
+           <option value="1390">
+            1390
+           </option>
+           <option value="1385">
+            1385
+           </option>
+           <option value="1380">
+            1380
+           </option>
+           <option value="1375">
+            1375
+           </option>
+           <option value="1370">
+            1370
+           </option>
+           <option value="1365">
+            1365
+           </option>
+           <option value="1360">
+            1360
+           </option>
+           <option value="1355">
+            1355
+           </option>
+           <option value="1350">
+            1350
+           </option>
+           <option value="1345">
+            1345
+           </option>
+           <option value="1340">
+            1340
+           </option>
+           <option value="1335">
+            1335
+           </option>
+           <option value="1330">
+            1330
+           </option>
+           <option value="1325">
+            1325
+           </option>
+           <option value="1320">
+            1320
+           </option>
+           <option value="1315">
+            1315
+           </option>
+           <option value="1310">
+            1310
+           </option>
+           <option value="1305">
+            1305
+           </option>
+           <option value="1300">
+            1300
+           </option>
+           <option value="1295">
+            1295
+           </option>
+           <option value="1290">
+            1290
+           </option>
+           <option value="1285">
+            1285
+           </option>
+           <option value="1280">
+            1280
+           </option>
+           <option value="1275">
+            1275
+           </option>
+           <option value="1270">
+            1270
+           </option>
+           <option value="1265">
+            1265
+           </option>
+           <option value="1260">
+            1260
+           </option>
+           <option value="1255">
+            1255
+           </option>
+           <option value="1250">
+            1250
+           </option>
+           <option value="1245">
+            1245
+           </option>
+           <option value="1240">
+            1240
+           </option>
+           <option value="1235">
+            1235
+           </option>
+           <option value="1230">
+            1230
+           </option>
+           <option value="1225">
+            1225
+           </option>
+           <option value="1220">
+            1220
+           </option>
+           <option value="1215">
+            1215
+           </option>
+           <option value="1210">
+            1210
+           </option>
+           <option value="1205">
+            1205
+           </option>
+           <option value="1200">
+            1200
+           </option>
+           <option value="1195">
+            1195
+           </option>
+           <option value="1190">
+            1190
+           </option>
+           <option value="1185">
+            1185
+           </option>
+           <option value="1180">
+            1180
+           </option>
+           <option value="1175">
+            1175
+           </option>
+           <option value="1170">
+            1170
+           </option>
+           <option value="1165">
+            1165
+           </option>
+           <option value="1160">
+            1160
+           </option>
+           <option value="1155">
+            1155
+           </option>
+           <option value="1150">
+            1150
+           </option>
+           <option value="1145">
+            1145
+           </option>
+           <option value="1140">
+            1140
+           </option>
+           <option value="1135">
+            1135
+           </option>
+           <option value="1130">
+            1130
+           </option>
+           <option value="1125">
+            1125
+           </option>
+           <option value="1120">
+            1120
+           </option>
+           <option value="1115">
+            1115
+           </option>
+           <option value="1110">
+            1110
+           </option>
+           <option value="1105">
+            1105
+           </option>
+           <option value="1100">
+            1100
+           </option>
+           <option value="1095">
+            1095
+           </option>
+           <option value="1090">
+            1090
+           </option>
+           <option value="1085">
+            1085
+           </option>
+           <option value="1080">
+            1080
+           </option>
+           <option value="1075">
+            1075
+           </option>
+           <option value="1070">
+            1070
+           </option>
+           <option value="1065">
+            1065
+           </option>
+           <option value="1060">
+            1060
+           </option>
+           <option value="1055">
+            1055
+           </option>
+           <option value="1050">
+            1050
+           </option>
+           <option value="1045">
+            1045
+           </option>
+           <option value="1040">
+            1040
+           </option>
+           <option value="1035">
+            1035
+           </option>
+           <option value="1030">
+            1030
+           </option>
+           <option value="1025">
+            1025
+           </option>
+           <option value="1020">
+            1020
+           </option>
+           <option value="1015">
+            1015
+           </option>
+           <option value="1010">
+            1010
+           </option>
+           <option value="1005">
+            1005
+           </option>
+           <option value="1000">
+            1000
+           </option>
+          </select>
+         </div>
+        </div>
+        <a class="btn btn-secondary date-filter-form-submit">
+         Filter
+        </a>
+       </form>
+       <div class="d-flex bg-secondary pt-2 align-items-center border rounded text-white mt-4 mb-2">
+        <h3 class="fs-5 ms-2">
+         Download
+        </h3>
+       </div>
+       <p class="small-text">
+        If you're interested in downloading this list as a CSV file for use in a spreadsheet application, you can easily do so by clicking the button below. Please note that to ensure a manageable file size and faster download, the CSV will include details for only the first 500 books.
+       </p>
+       <a class="btn btn-outline-primary btn-sm" href="https://thegreatestbooks.org/index.csv" rel="nofollow">
+        <i class="bi bi-file-arrow-down-fill">
+        </i>
+        Download
+       </a>
+      </div>
+     </div>
+     <!-- This is the main content area -->
+     <div class="col-lg-8 order-lg-1 order-2 pe-5">
+      <ol class="list-group list-group-flush">
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="122">
+        <div class="row">
+         <div class="col">
+          <h4>
+           1.
+           <a href="/books/122">
+            Ulysses
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4743">
+            James Joyce
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Ulysses' by James Joyce" href="/books/122">
+             <img alt="Cover of 'Ulysses' by James Joyce" src="https://thegreatestbooks.club/9vecj2fz5246xa3c5c7slr4y7kyl"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in Dublin, the novel follows a day in the life of Leopold Bloom, an advertising salesman, as he navigates the city. The narrative, heavily influenced by Homer's Odyssey, explores themes of identity, heroism, and the complexities of everyday life. It is renowned for its stream-of-consciousness style and complex structure, making it a challenging but rewarding read.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-122">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="266">
+        <div class="row">
+         <div class="col">
+          <h4>
+           2.
+           <a href="/books/266">
+            One Hundred Years of Solitude
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4822">
+            Gabriel Garcia Marquez
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'One Hundred Years of Solitude' by Gabriel Garcia Marquez" href="/books/266">
+             <img alt="Cover of 'One Hundred Years of Solitude' by Gabriel Garcia Marquez" src="https://thegreatestbooks.club/nkfaeq8vlliz3jbdkt38km3w7jr5"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This novel is a multi-generational saga that focuses on the Buendía family, who founded the fictional town of Macondo. It explores themes of love, loss, family, and the cyclical nature of history. The story is filled with magical realism, blending the supernatural with the ordinary, as it chronicles the family's experiences, including civil war, marriages, births, and deaths. The book is renowned for its narrative style and its exploration of solitude, fate, and the inevitability of repetition in history.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-266">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="225">
+        <div class="row">
+         <div class="col">
+          <h4>
+           3.
+           <a href="/books/225">
+            In Search of Lost Time
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4798">
+            Marcel Proust
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'In Search of Lost Time' by Marcel Proust" href="/books/225">
+             <img alt="Cover of 'In Search of Lost Time' by Marcel Proust" src="https://thegreatestbooks.club/sg0ytun7phyv9c4q5772nqvgjpyb"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This renowned novel is a sweeping exploration of memory, love, art, and the passage of time, told through the narrator's recollections of his childhood and experiences into adulthood in the late 19th and early 20th century aristocratic France. The narrative is notable for its lengthy and intricate involuntary memory episodes, the most famous being the "madeleine episode". It explores the themes of time, space and memory, but also raises questions about the nature of art and literature, and the complex relationships between love, sexuality, and possession.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-225">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="190">
+        <div class="row">
+         <div class="col">
+          <h4>
+           4.
+           <a href="/books/190">
+            Don Quixote
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4767">
+            Miguel de Cervantes
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Don Quixote' by Miguel de Cervantes" href="/books/190">
+             <img alt="Cover of 'Don Quixote' by Miguel de Cervantes" src="https://thegreatestbooks.club/bbv4hn6u3743cf28g76ajvkrgrvn"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This classic novel follows the adventures of a man who, driven mad by reading too many chivalric romances, decides to become a knight-errant and roam the world righting wrongs under the name Don Quixote. Accompanied by his loyal squire, Sancho Panza, he battles windmills he believes to be giants and champions the virtuous lady Dulcinea, who is in reality a simple peasant girl. The book is a richly layered critique of the popular literature of Cervantes' time and a profound exploration of reality and illusion, madness and sanity.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-190">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="38">
+        <div class="row">
+         <div class="col">
+          <h4>
+           5.
+           <a href="/books/38">
+            The Great Gatsby
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4672">
+            F. Scott Fitzgerald
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Great Gatsby' by F. Scott Fitzgerald" href="/books/38">
+             <img alt="Cover of 'The Great Gatsby' by F. Scott Fitzgerald" src="https://thegreatestbooks.club/xqzw71cq0cfn1s0ganth5b7x09ec"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in the summer of 1922, the novel follows the life of a young and mysterious millionaire, his extravagant lifestyle in Long Island, and his obsessive love for a beautiful former debutante. As the story unfolds, the millionaire's dark secrets and the corrupt reality of the American dream during the Jazz Age are revealed. The narrative is a critique of the hedonistic excess and moral decay of the era, ultimately leading to tragic consequences.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-38">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="208">
+        <div class="row">
+         <div class="col">
+          <h4>
+           6.
+           <a href="/books/208">
+            Moby Dick
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4783">
+            Herman Melville
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Moby Dick' by Herman Melville" href="/books/208">
+             <img alt="Cover of 'Moby Dick' by Herman Melville" src="https://thegreatestbooks.club/5ntsznzrzuoakqhhbxi9phqhmkgt"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             The novel is a detailed narrative of a vengeful sea captain's obsessive quest to hunt down a giant white sperm whale that bit off his leg. The captain's relentless pursuit, despite the warnings and concerns of his crew, leads them on a dangerous journey across the seas. The story is a complex exploration of good and evil, obsession, and the nature of reality, filled with rich descriptions of whaling and the sea.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-208">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="116">
+        <div class="row">
+         <div class="col">
+          <h4>
+           7.
+           <a href="/books/116">
+            War and Peace
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4740">
+            Leo Tolstoy
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'War and Peace' by Leo Tolstoy" href="/books/116">
+             <img alt="Cover of 'War and Peace' by Leo Tolstoy" src="https://thegreatestbooks.club/l0d079mbda8c8ivtito38pljjfk2"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in the backdrop of the Napoleonic era, the novel presents a panorama of Russian society and its descent into the chaos of war. It follows the interconnected lives of five aristocratic families, their struggles, romances, and personal journeys through the tumultuous period of history. The narrative explores themes of love, war, and the meaning of life, as it weaves together historical events with the personal stories of its characters.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-116">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="19">
+        <div class="row">
+         <div class="col">
+          <h4>
+           8.
+           <a href="/books/19">
+            The Catcher in the Rye
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4654">
+            J. D. Salinger
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Catcher in the Rye' by J. D. Salinger" href="/books/19">
+             <img alt="Cover of 'The Catcher in the Rye' by J. D. Salinger" src="https://thegreatestbooks.club/n2y1vprl2fpyll8onir6bhnbcdfo"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             The novel follows the story of a teenager named Holden Caulfield, who has just been expelled from his prep school. The narrative unfolds over the course of three days, during which Holden experiences various forms of alienation and his mental state continues to unravel. He criticizes the adult world as "phony" and struggles with his own transition into adulthood. The book is a profound exploration of teenage rebellion, alienation, and the loss of innocence.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-19">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="211">
+        <div class="row">
+         <div class="col">
+          <h4>
+           9.
+           <a href="/books/211">
+            Alice's Adventures in Wonderland
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4786">
+            Lewis Carroll
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Alice's Adventures in Wonderland' by Lewis Carroll" href="/books/211">
+             <img alt="Cover of 'Alice's Adventures in Wonderland' by Lewis Carroll" src="https://thegreatestbooks.club/ghd98em6a7n2ydnmmzwpyww6o54o"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This novel follows the story of a young girl named Alice who falls down a rabbit hole into a fantastical world full of peculiar creatures and bizarre experiences. As she navigates through this strange land, she encounters a series of nonsensical events, including a tea party with a Mad Hatter, a pool of tears, and a trial over stolen tarts. The book is renowned for its playful use of language, logic, and its exploration of the boundaries of reality.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-211">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="329">
+        <div class="row">
+         <div class="col">
+          <h4>
+           10.
+           <a href="/books/329">
+            Crime and Punishment
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4789">
+            Fyodor Dostoevsky
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Crime and Punishment' by Fyodor Dostoevsky" href="/books/329">
+             <img alt="Cover of 'Crime and Punishment' by Fyodor Dostoevsky" src="https://thegreatestbooks.club/oenemxzazqpab52eshes0whwao97"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             A young, impoverished former student in Saint Petersburg, Russia, formulates a plan to kill an unscrupulous pawnbroker to redistribute her wealth among the needy. However, after carrying out the act, he is consumed by guilt and paranoia, leading to a psychological battle within himself. As he grapples with his actions, he also navigates complex relationships with a variety of characters, including a virtuous prostitute, his sister, and a relentless detective. The narrative explores themes of morality, redemption, and the psychological impacts of crime.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-329">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="102">
+        <div class="row">
+         <div class="col">
+          <h4>
+           11.
+           <a href="/books/102">
+            Pride and Prejudice
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4728">
+            Jane Austen
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Pride and Prejudice' by Jane Austen" href="/books/102">
+             <img alt="Cover of 'Pride and Prejudice' by Jane Austen" src="https://thegreatestbooks.club/6rwjp2ip713ay6m8e8rtc7kszevc"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in early 19th-century England, this classic novel revolves around the lives of the Bennet family, particularly the five unmarried daughters. The narrative explores themes of manners, upbringing, morality, education, and marriage within the society of the landed gentry. It follows the romantic entanglements of Elizabeth Bennet, the second eldest daughter, who is intelligent, lively, and quick-witted, and her tumultuous relationship with the proud, wealthy, and seemingly aloof Mr. Darcy. Their story unfolds as they navigate societal expectations, personal misunderstandings, and their own pride and prejudice.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-102">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="326">
+        <div class="row">
+         <div class="col">
+          <h4>
+           12.
+           <a href="/books/326">
+            The Divine Comedy
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4868">
+            Dante Alighieri
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Divine Comedy' by Dante Alighieri" href="/books/326">
+             <img alt="Cover of 'The Divine Comedy' by Dante Alighieri" src="https://thegreatestbooks.club/gaxujpxd6hprs13s980kb2s0tffj"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             In this epic poem, the protagonist embarks on an extraordinary journey through Hell (Inferno), Purgatory (Purgatorio), and Paradise (Paradiso). Guided by the ancient Roman poet Virgil and his beloved Beatrice, he encounters various historical and mythological figures in each realm, witnessing the eternal consequences of earthly sins and virtues. The journey serves as an allegory for the soul's progression towards God, offering profound insights into the nature of good and evil, free will, and divine justice.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-326">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="108">
+        <div class="row">
+         <div class="col">
+          <h4>
+           13.
+           <a href="/books/108">
+            Wuthering Heights
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4734">
+            Emily Brontë
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Wuthering Heights' by Emily Brontë" href="/books/108">
+             <img alt="Cover of 'Wuthering Heights' by Emily Brontë" src="https://thegreatestbooks.club/bw95y9d86rh3hr3rf5rsg3xlnv35"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This classic novel is a tale of love, revenge and social class set in the Yorkshire moors. It revolves around the intense, complex relationship between Catherine Earnshaw and Heathcliff, an orphan adopted by Catherine's father. Despite their deep affection for each other, Catherine marries Edgar Linton, a wealthy neighbor, leading Heathcliff to seek revenge on the two families. The story unfolds over two generations, reflecting the consequences of their choices and the destructive power of obsessive love.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-108">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="50">
+        <div class="row">
+         <div class="col">
+          <h4>
+           14.
+           <a href="/books/50">
+            Lolita
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4682">
+            Vladimir Nabokov
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Lolita' by Vladimir Nabokov" href="/books/50">
+             <img alt="Cover of 'Lolita' by Vladimir Nabokov" src="https://thegreatestbooks.club/m6joa4g7x5chqlami3qq3id9mt85"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             The novel tells the story of Humbert Humbert, a man with a disturbing obsession for young girls, or "nymphets" as he calls them. His obsession leads him to engage in a manipulative and destructive relationship with his 12-year-old stepdaughter, Lolita. The narrative is a controversial exploration of manipulation, obsession, and unreliable narration, as Humbert attempts to justify his actions and feelings throughout the story.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-50">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="1156">
+        <div class="row">
+         <div class="col">
+          <h4>
+           15.
+           <a href="/books/1156">
+            The Bible
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/5468">
+            Christian Church
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Bible' by Christian Church" href="/books/1156">
+             <img alt="Cover of 'The Bible' by Christian Church" src="https://thegreatestbooks.club/f3cdvhsqhyuzsmsg6cgr0sdn5tpc"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This religious text is a compilation of 66 books divided into the Old and New Testaments, forming the central narrative for Christianity. It encompasses a variety of genres, including historical accounts, poetry, prophecy, and teaching, telling the story of God's relationship with humanity, from creation to the life, death, and resurrection of Jesus Christ, and the early Christian church. It is considered by believers to be divinely inspired and serves as a guide for faith and practice.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-1156">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="408">
+        <div class="row">
+         <div class="col">
+          <h4>
+           16.
+           <a href="/books/408">
+            The Odyssey
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4916">
+            Homer
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Odyssey' by Homer" href="/books/408">
+             <img alt="Cover of 'The Odyssey' by Homer" src="https://thegreatestbooks.club/xwhes2eqmfzquc24ytt9ho8yu25z"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This epic poem follows the Greek hero Odysseus on his journey home after the fall of Troy. It takes Odysseus ten years to reach Ithaca after the ten-year Trojan War. Along the way, he encounters many obstacles including mythical creatures, divine beings, and natural disasters. Meanwhile, back in Ithaca, his wife Penelope and son Telemachus fend off suitors vying for Penelope's hand in marriage, believing Odysseus to be dead. The story concludes with Odysseus's return, his slaughter of the suitors, and his reunion with his family.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-408">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="64">
+        <div class="row">
+         <div class="col">
+          <h4>
+           17.
+           <a href="/books/64">
+            Nineteen Eighty Four
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4640">
+            George Orwell
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Nineteen Eighty Four' by George Orwell" href="/books/64">
+             <img alt="Cover of 'Nineteen Eighty Four' by George Orwell" src="https://thegreatestbooks.club/zmpdbqifpr5hp12srnqxf4kknb7i"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in a dystopian future, the novel presents a society under the total control of a totalitarian regime, led by the omnipresent Big Brother. The protagonist, a low-ranking member of 'the Party', begins to question the regime and falls in love with a woman, an act of rebellion in a world where independent thought, dissent, and love are prohibited. The novel explores themes of surveillance, censorship, and the manipulation of truth.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-64">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="217">
+        <div class="row">
+         <div class="col">
+          <h4>
+           18.
+           <a href="/books/217">
+            The Adventures of Huckleberry Finn
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4790">
+            Mark Twain
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Adventures of Huckleberry Finn' by Mark Twain" href="/books/217">
+             <img alt="Cover of 'The Adventures of Huckleberry Finn' by Mark Twain" src="https://thegreatestbooks.club/r7ixblslyr5q5xtx0pzbc2ag2co2"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             The novel follows the journey of a young boy named Huckleberry Finn and a runaway slave named Jim as they travel down the Mississippi River on a raft. Set in the American South before the Civil War, the story explores themes of friendship, freedom, and the hypocrisy of society. Through various adventures and encounters with a host of colorful characters, Huck grapples with his personal values, often clashing with the societal norms of the time.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-217">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="215">
+        <div class="row">
+         <div class="col">
+          <h4>
+           19.
+           <a href="/books/215">
+            The Brothers Karamazov
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4789">
+            Fyodor Dostoevsky
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Brothers Karamazov' by Fyodor Dostoevsky" href="/books/215">
+             <img alt="Cover of 'The Brothers Karamazov' by Fyodor Dostoevsky" src="https://thegreatestbooks.club/7gljy9s9kfx03e0brb984nm3vd4r"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This classic novel explores the complex, passionate, and troubled relationship between four brothers and their father in 19th century Russia. The narrative delves into the themes of faith, doubt, morality, and redemption, as each brother grapples with personal dilemmas and family conflicts. The story culminates in a dramatic trial following a murder, which serves as a microcosm of the moral and philosophical struggles faced by each character, and by extension, humanity itself.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-215">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="209">
+        <div class="row">
+         <div class="col">
+          <h4>
+           20.
+           <a href="/books/209">
+            Madame Bovary
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4784">
+            Gustave Flaubert
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Madame Bovary' by Gustave Flaubert" href="/books/209">
+             <img alt="Cover of 'Madame Bovary' by Gustave Flaubert" src="https://thegreatestbooks.club/v57bi630dc2ygjugf7nuk4pmbv33"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Madame Bovary is a tragic novel about a young woman, Emma Bovary, who is married to a dull, but kind-hearted doctor. Dissatisfied with her life, she embarks on a series of extramarital affairs and indulges in a luxurious lifestyle in an attempt to escape the banalities and emptiness of provincial life. Her desire for passion and excitement leads her down a path of financial ruin and despair, ultimately resulting in a tragic end.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-209">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="135">
+        <div class="row">
+         <div class="col">
+          <h4>
+           21.
+           <a href="/books/135">
+            Heart of Darkness
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4746">
+            Joseph Conrad
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Heart of Darkness' by Joseph Conrad" href="/books/135">
+             <img alt="Cover of 'Heart of Darkness' by Joseph Conrad" src="https://thegreatestbooks.club/ulqqs94h209mkicqooc10arrh5o2"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This classic novel follows the journey of a seaman who travels up the Congo River into the African interior to meet a mysterious ivory trader. Throughout his journey, he encounters the harsh realities of imperialism, the brutal treatment of native Africans, and the depths of human cruelty and madness. The protagonist's journey into the 'heart of darkness' serves as both a physical exploration of the African continent and a metaphorical exploration into the depths of human nature.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-135">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="213">
+        <div class="row">
+         <div class="col">
+          <h4>
+           22.
+           <a href="/books/213">
+            Anna Karenina
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4740">
+            Leo Tolstoy
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Anna Karenina' by Leo Tolstoy" href="/books/213">
+             <img alt="Cover of 'Anna Karenina' by Leo Tolstoy" src="https://thegreatestbooks.club/1hvvcff6my4o809xmacjpe7fxy6h"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in 19th-century Russia, this novel revolves around the life of Anna Karenina, a high-society woman who, dissatisfied with her loveless marriage, embarks on a passionate affair with a charming officer named Count Vronsky. This scandalous affair leads to her social downfall, while parallel to this, the novel also explores the rural life and struggles of Levin, a landowner who seeks the meaning of life and true happiness. The book explores themes such as love, marriage, fidelity, societal norms, and the human quest for happiness.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-213">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="18">
+        <div class="row">
+         <div class="col">
+          <h4>
+           23.
+           <a href="/books/18">
+            Catch-22
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4653">
+            Joseph Heller
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'Catch-22' by Joseph Heller" href="/books/18">
+             <img alt="Cover of 'Catch-22' by Joseph Heller" src="https://thegreatestbooks.club/xi6dofxq8k1wcpifby71qqmwpann"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             The book is a satirical critique of military bureaucracy and the illogical nature of war, set during World War II. The story follows a U.S. Army Air Forces B-25 bombardier stationed in Italy, who is trying to maintain his sanity while fulfilling his service requirements so that he can go home. The novel explores the absurdity of war and military life through the experiences of the protagonist, who discovers that a bureaucratic rule, the "Catch-22", makes it impossible for him to escape his dangerous situation. The more he tries to avoid his military assignments, the deeper he gets sucked into the irrational world of military rule.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-18">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="407">
+        <div class="row">
+         <div class="col">
+          <h4>
+           24.
+           <a href="/books/407">
+            The Iliad
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4916">
+            Homer
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'The Iliad' by Homer" href="/books/407">
+             <img alt="Cover of 'The Iliad' by Homer" src="https://thegreatestbooks.club/pmip1ar84aro4fgmmeez92qwbyfd"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             This epic poem focuses on the final weeks of the Trojan War, a conflict between the city of Troy and the Greek city-states. The story explores themes of war, honor, wrath, and divine intervention, with a particular focus on the Greek hero Achilles, whose anger and refusal to fight have devastating consequences. The narrative also delves into the lives of the gods, their relationships with humans, and their influence on the course of events.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-407">
+         </div>
+        </div>
+       </li>
+       <li class="list-group-item book-list-item p-0 pt-3" data-book="91">
+        <div class="row">
+         <div class="col">
+          <h4>
+           25.
+           <a href="/books/91">
+            To Kill a Mockingbird
+           </a>
+           by
+           <a data-turbo-frame="_top" href="/authors/4717">
+            Harper Lee
+           </a>
+          </h4>
+          <div class="ps-3 ps-3">
+           <div class="float-start me-3 default-book-image">
+            <a aria_label="View details about 'To Kill a Mockingbird' by Harper Lee" href="/books/91">
+             <img alt="Cover of 'To Kill a Mockingbird' by Harper Lee" src="https://thegreatestbooks.club/ar8sz6exbi03loyfxhw58rflwo9n"/>
+            </a>
+           </div>
+           <div>
+            <p>
+             Set in the racially charged South during the Depression, the novel follows a young girl and her older brother as they navigate their small town's societal norms and prejudices. Their father, a lawyer, is appointed to defend a black man falsely accused of raping a white woman, forcing the children to confront the harsh realities of racism and injustice. The story explores themes of morality, innocence, and the loss of innocence through the eyes of the young protagonists.
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="d-flex flex-row bd-highlight mb-2" id="user-book-actions-container-91">
+         </div>
+        </div>
+       </li>
+      </ol>
+      <nav class="">
+       <ul class="pagination">
+        <li class="page-item active">
+         <a class="page-link" href="/index?_nospa=true">
+          1
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/2?_nospa=true" rel="next">
+          2
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/3?_nospa=true">
+          3
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/4?_nospa=true">
+          4
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/5?_nospa=true">
+          5
+         </a>
+        </li>
+        <li class="page-item disabled">
+         <a class="page-link" href="#" onclick="return false;">
+          …
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/2?_nospa=true" rel="next">
+          Next ›
+         </a>
+        </li>
+        <li class="page-item">
+         <a class="page-link" href="/page/280?_nospa=true">
+          Last »
+         </a>
+        </li>
+       </ul>
+      </nav>
+      <div class="d-block d-md-none">
+       <div class="d-flex bg-secondary pt-2 align-items-center border rounded text-white mt-4 mb-2">
+        <h3 class="fs-5 ms-2">
+         Download
+        </h3>
+       </div>
+       <p class="small-text">
+        If you're interested in downloading this list as a CSV file for use in a spreadsheet application, you can easily do so by clicking the button below. Please note that to ensure a manageable file size and faster download, the CSV will include details for only the first 500 books.
+       </p>
+       <a class="btn btn-outline-primary btn-sm" href="https://thegreatestbooks.org/index.csv" rel="nofollow">
+        <i class="bi bi-file-arrow-down-fill">
+        </i>
+        Download
+       </a>
+      </div>
+     </div>
+    </div>
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="create-custom-user-list-modal-label" class="modal fade" id="create-custom-user-list-modal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <form accept-charset="UTF-8" action="/user_lists" data-controller="create-user-list-form" data-turbo-frame="user-lists-index" id="create-custom-user-list-form" method="post">
+        <input autocomplete="off" name="authenticity_token" type="hidden" value="1v-af3uMN_umNvv4VBJKf5KA6tSl82Vo0qshZ9zpi6-6vALNczhLxL6Cx_k_KftBcG7ELcFLn6nPUl1SljqOOg"/>
+        <div class="modal-header">
+         <h5 class="modal-title" id="create-custom-user-list-modal-label">
+          Create Custom User List
+         </h5>
+         <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+         </button>
+        </div>
+        <div class="modal-body">
+         <div class="mb-3">
+          <label class="form-label required" for="user_list_name">
+           Name
+          </label>
+          <input class="form-control" id="user_list_name" name="user_list[name]" required="required" type="text"/>
+         </div>
+         <input autocomplete="off" data-create-user-list-form-target="bookIdsInput" id="user_list_book_ids" name="user_list[book_ids]" type="hidden" value=""/>
+         <input autocomplete="off" data-create-user-list-form-target="bookIdInput" id="user_list_book_id" name="user_list[book_id]" type="hidden"/>
+         <div class="mb-3">
+          <label class="form-label" for="user_list_description">
+           Description
+          </label>
+          <textarea class="form-control" id="user_list_description" name="user_list[description]"></textarea>
+         </div>
+        </div>
+        <div class="modal-footer">
+         <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+          Close
+         </button>
+         <button class="btn btn-primary" data-action="click-&gt;create-user-list-form#submit" data-bs-dismiss="modal" data-create-user-list-form-target="submitFormBtn" disabled="" id="create-custom-user-list-form-create-btn" type="submit">
+          Create
+         </button>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+    <div aria-hidden="true" aria-labelledby="date-filter-modal-label" class="modal fade" id="date-filter-modal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h1 class="modal-title fs-5" id="date-filter-modal-label">
+         Filter by Date Range
+        </h1>
+        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+        </button>
+       </div>
+       <div class="modal-body">
+        <form accept-charset="UTF-8" action="/" id="date-filter-form-modal" method="get">
+         <input autocomplete="off" class="url-without-dates" id="url-without-dates-modal" name="url_without_dates" type="hidden" value="/"/>
+         <div class="mb-3">
+          <label class="form-label" for="date_start">
+           Start Date
+          </label>
+          <select class="form-select date-start-input" id="date-start-modal" name="date_start">
+           <option value="">
+            Any
+           </option>
+           <option value="2020">
+            2020
+           </option>
+           <option value="2015">
+            2015
+           </option>
+           <option value="2010">
+            2010
+           </option>
+           <option value="2005">
+            2005
+           </option>
+           <option value="2000">
+            2000
+           </option>
+           <option value="1995">
+            1995
+           </option>
+           <option value="1990">
+            1990
+           </option>
+           <option value="1985">
+            1985
+           </option>
+           <option value="1980">
+            1980
+           </option>
+           <option value="1975">
+            1975
+           </option>
+           <option value="1970">
+            1970
+           </option>
+           <option value="1965">
+            1965
+           </option>
+           <option value="1960">
+            1960
+           </option>
+           <option value="1955">
+            1955
+           </option>
+           <option value="1950">
+            1950
+           </option>
+           <option value="1945">
+            1945
+           </option>
+           <option value="1940">
+            1940
+           </option>
+           <option value="1935">
+            1935
+           </option>
+           <option value="1930">
+            1930
+           </option>
+           <option value="1925">
+            1925
+           </option>
+           <option value="1920">
+            1920
+           </option>
+           <option value="1915">
+            1915
+           </option>
+           <option value="1910">
+            1910
+           </option>
+           <option value="1905">
+            1905
+           </option>
+           <option value="1900">
+            1900
+           </option>
+           <option value="1895">
+            1895
+           </option>
+           <option value="1890">
+            1890
+           </option>
+           <option value="1885">
+            1885
+           </option>
+           <option value="1880">
+            1880
+           </option>
+           <option value="1875">
+            1875
+           </option>
+           <option value="1870">
+            1870
+           </option>
+           <option value="1865">
+            1865
+           </option>
+           <option value="1860">
+            1860
+           </option>
+           <option value="1855">
+            1855
+           </option>
+           <option value="1850">
+            1850
+           </option>
+           <option value="1845">
+            1845
+           </option>
+           <option value="1840">
+            1840
+           </option>
+           <option value="1835">
+            1835
+           </option>
+           <option value="1830">
+            1830
+           </option>
+           <option value="1825">
+            1825
+           </option>
+           <option value="1820">
+            1820
+           </option>
+           <option value="1815">
+            1815
+           </option>
+           <option value="1810">
+            1810
+           </option>
+           <option value="1805">
+            1805
+           </option>
+           <option value="1800">
+            1800
+           </option>
+           <option value="1795">
+            1795
+           </option>
+           <option value="1790">
+            1790
+           </option>
+           <option value="1785">
+            1785
+           </option>
+           <option value="1780">
+            1780
+           </option>
+           <option value="1775">
+            1775
+           </option>
+           <option value="1770">
+            1770
+           </option>
+           <option value="1765">
+            1765
+           </option>
+           <option value="1760">
+            1760
+           </option>
+           <option value="1755">
+            1755
+           </option>
+           <option value="1750">
+            1750
+           </option>
+           <option value="1745">
+            1745
+           </option>
+           <option value="1740">
+            1740
+           </option>
+           <option value="1735">
+            1735
+           </option>
+           <option value="1730">
+            1730
+           </option>
+           <option value="1725">
+            1725
+           </option>
+           <option value="1720">
+            1720
+           </option>
+           <option value="1715">
+            1715
+           </option>
+           <option value="1710">
+            1710
+           </option>
+           <option value="1705">
+            1705
+           </option>
+           <option value="1700">
+            1700
+           </option>
+           <option value="1695">
+            1695
+           </option>
+           <option value="1690">
+            1690
+           </option>
+           <option value="1685">
+            1685
+           </option>
+           <option value="1680">
+            1680
+           </option>
+           <option value="1675">
+            1675
+           </option>
+           <option value="1670">
+            1670
+           </option>
+           <option value="1665">
+            1665
+           </option>
+           <option value="1660">
+            1660
+           </option>
+           <option value="1655">
+            1655
+           </option>
+           <option value="1650">
+            1650
+           </option>
+           <option value="1645">
+            1645
+           </option>
+           <option value="1640">
+            1640
+           </option>
+           <option value="1635">
+            1635
+           </option>
+           <option value="1630">
+            1630
+           </option>
+           <option value="1625">
+            1625
+           </option>
+           <option value="1620">
+            1620
+           </option>
+           <option value="1615">
+            1615
+           </option>
+           <option value="1610">
+            1610
+           </option>
+           <option value="1605">
+            1605
+           </option>
+           <option value="1600">
+            1600
+           </option>
+           <option value="1595">
+            1595
+           </option>
+           <option value="1590">
+            1590
+           </option>
+           <option value="1585">
+            1585
+           </option>
+           <option value="1580">
+            1580
+           </option>
+           <option value="1575">
+            1575
+           </option>
+           <option value="1570">
+            1570
+           </option>
+           <option value="1565">
+            1565
+           </option>
+           <option value="1560">
+            1560
+           </option>
+           <option value="1555">
+            1555
+           </option>
+           <option value="1550">
+            1550
+           </option>
+           <option value="1545">
+            1545
+           </option>
+           <option value="1540">
+            1540
+           </option>
+           <option value="1535">
+            1535
+           </option>
+           <option value="1530">
+            1530
+           </option>
+           <option value="1525">
+            1525
+           </option>
+           <option value="1520">
+            1520
+           </option>
+           <option value="1515">
+            1515
+           </option>
+           <option value="1510">
+            1510
+           </option>
+           <option value="1505">
+            1505
+           </option>
+           <option value="1500">
+            1500
+           </option>
+           <option value="1495">
+            1495
+           </option>
+           <option value="1490">
+            1490
+           </option>
+           <option value="1485">
+            1485
+           </option>
+           <option value="1480">
+            1480
+           </option>
+           <option value="1475">
+            1475
+           </option>
+           <option value="1470">
+            1470
+           </option>
+           <option value="1465">
+            1465
+           </option>
+           <option value="1460">
+            1460
+           </option>
+           <option value="1455">
+            1455
+           </option>
+           <option value="1450">
+            1450
+           </option>
+           <option value="1445">
+            1445
+           </option>
+           <option value="1440">
+            1440
+           </option>
+           <option value="1435">
+            1435
+           </option>
+           <option value="1430">
+            1430
+           </option>
+           <option value="1425">
+            1425
+           </option>
+           <option value="1420">
+            1420
+           </option>
+           <option value="1415">
+            1415
+           </option>
+           <option value="1410">
+            1410
+           </option>
+           <option value="1405">
+            1405
+           </option>
+           <option value="1400">
+            1400
+           </option>
+           <option value="1395">
+            1395
+           </option>
+           <option value="1390">
+            1390
+           </option>
+           <option value="1385">
+            1385
+           </option>
+           <option value="1380">
+            1380
+           </option>
+           <option value="1375">
+            1375
+           </option>
+           <option value="1370">
+            1370
+           </option>
+           <option value="1365">
+            1365
+           </option>
+           <option value="1360">
+            1360
+           </option>
+           <option value="1355">
+            1355
+           </option>
+           <option value="1350">
+            1350
+           </option>
+           <option value="1345">
+            1345
+           </option>
+           <option value="1340">
+            1340
+           </option>
+           <option value="1335">
+            1335
+           </option>
+           <option value="1330">
+            1330
+           </option>
+           <option value="1325">
+            1325
+           </option>
+           <option value="1320">
+            1320
+           </option>
+           <option value="1315">
+            1315
+           </option>
+           <option value="1310">
+            1310
+           </option>
+           <option value="1305">
+            1305
+           </option>
+           <option value="1300">
+            1300
+           </option>
+           <option value="1295">
+            1295
+           </option>
+           <option value="1290">
+            1290
+           </option>
+           <option value="1285">
+            1285
+           </option>
+           <option value="1280">
+            1280
+           </option>
+           <option value="1275">
+            1275
+           </option>
+           <option value="1270">
+            1270
+           </option>
+           <option value="1265">
+            1265
+           </option>
+           <option value="1260">
+            1260
+           </option>
+           <option value="1255">
+            1255
+           </option>
+           <option value="1250">
+            1250
+           </option>
+           <option value="1245">
+            1245
+           </option>
+           <option value="1240">
+            1240
+           </option>
+           <option value="1235">
+            1235
+           </option>
+           <option value="1230">
+            1230
+           </option>
+           <option value="1225">
+            1225
+           </option>
+           <option value="1220">
+            1220
+           </option>
+           <option value="1215">
+            1215
+           </option>
+           <option value="1210">
+            1210
+           </option>
+           <option value="1205">
+            1205
+           </option>
+           <option value="1200">
+            1200
+           </option>
+           <option value="1195">
+            1195
+           </option>
+           <option value="1190">
+            1190
+           </option>
+           <option value="1185">
+            1185
+           </option>
+           <option value="1180">
+            1180
+           </option>
+           <option value="1175">
+            1175
+           </option>
+           <option value="1170">
+            1170
+           </option>
+           <option value="1165">
+            1165
+           </option>
+           <option value="1160">
+            1160
+           </option>
+           <option value="1155">
+            1155
+           </option>
+           <option value="1150">
+            1150
+           </option>
+           <option value="1145">
+            1145
+           </option>
+           <option value="1140">
+            1140
+           </option>
+           <option value="1135">
+            1135
+           </option>
+           <option value="1130">
+            1130
+           </option>
+           <option value="1125">
+            1125
+           </option>
+           <option value="1120">
+            1120
+           </option>
+           <option value="1115">
+            1115
+           </option>
+           <option value="1110">
+            1110
+           </option>
+           <option value="1105">
+            1105
+           </option>
+           <option value="1100">
+            1100
+           </option>
+           <option value="1095">
+            1095
+           </option>
+           <option value="1090">
+            1090
+           </option>
+           <option value="1085">
+            1085
+           </option>
+           <option value="1080">
+            1080
+           </option>
+           <option value="1075">
+            1075
+           </option>
+           <option value="1070">
+            1070
+           </option>
+           <option value="1065">
+            1065
+           </option>
+           <option value="1060">
+            1060
+           </option>
+           <option value="1055">
+            1055
+           </option>
+           <option value="1050">
+            1050
+           </option>
+           <option value="1045">
+            1045
+           </option>
+           <option value="1040">
+            1040
+           </option>
+           <option value="1035">
+            1035
+           </option>
+           <option value="1030">
+            1030
+           </option>
+           <option value="1025">
+            1025
+           </option>
+           <option value="1020">
+            1020
+           </option>
+           <option value="1015">
+            1015
+           </option>
+           <option value="1010">
+            1010
+           </option>
+           <option value="1005">
+            1005
+           </option>
+           <option value="1000">
+            1000
+           </option>
+          </select>
+         </div>
+         <div class="mb-3">
+          <label class="form-label" for="date_end">
+           End Date
+          </label>
+          <select class="form-select date-end-input" id="date-end-modal" name="date_end">
+           <option value="">
+            Any
+           </option>
+           <option value="2020">
+            2020
+           </option>
+           <option value="2015">
+            2015
+           </option>
+           <option value="2010">
+            2010
+           </option>
+           <option value="2005">
+            2005
+           </option>
+           <option value="2000">
+            2000
+           </option>
+           <option value="1995">
+            1995
+           </option>
+           <option value="1990">
+            1990
+           </option>
+           <option value="1985">
+            1985
+           </option>
+           <option value="1980">
+            1980
+           </option>
+           <option value="1975">
+            1975
+           </option>
+           <option value="1970">
+            1970
+           </option>
+           <option value="1965">
+            1965
+           </option>
+           <option value="1960">
+            1960
+           </option>
+           <option value="1955">
+            1955
+           </option>
+           <option value="1950">
+            1950
+           </option>
+           <option value="1945">
+            1945
+           </option>
+           <option value="1940">
+            1940
+           </option>
+           <option value="1935">
+            1935
+           </option>
+           <option value="1930">
+            1930
+           </option>
+           <option value="1925">
+            1925
+           </option>
+           <option value="1920">
+            1920
+           </option>
+           <option value="1915">
+            1915
+           </option>
+           <option value="1910">
+            1910
+           </option>
+           <option value="1905">
+            1905
+           </option>
+           <option value="1900">
+            1900
+           </option>
+           <option value="1895">
+            1895
+           </option>
+           <option value="1890">
+            1890
+           </option>
+           <option value="1885">
+            1885
+           </option>
+           <option value="1880">
+            1880
+           </option>
+           <option value="1875">
+            1875
+           </option>
+           <option value="1870">
+            1870
+           </option>
+           <option value="1865">
+            1865
+           </option>
+           <option value="1860">
+            1860
+           </option>
+           <option value="1855">
+            1855
+           </option>
+           <option value="1850">
+            1850
+           </option>
+           <option value="1845">
+            1845
+           </option>
+           <option value="1840">
+            1840
+           </option>
+           <option value="1835">
+            1835
+           </option>
+           <option value="1830">
+            1830
+           </option>
+           <option value="1825">
+            1825
+           </option>
+           <option value="1820">
+            1820
+           </option>
+           <option value="1815">
+            1815
+           </option>
+           <option value="1810">
+            1810
+           </option>
+           <option value="1805">
+            1805
+           </option>
+           <option value="1800">
+            1800
+           </option>
+           <option value="1795">
+            1795
+           </option>
+           <option value="1790">
+            1790
+           </option>
+           <option value="1785">
+            1785
+           </option>
+           <option value="1780">
+            1780
+           </option>
+           <option value="1775">
+            1775
+           </option>
+           <option value="1770">
+            1770
+           </option>
+           <option value="1765">
+            1765
+           </option>
+           <option value="1760">
+            1760
+           </option>
+           <option value="1755">
+            1755
+           </option>
+           <option value="1750">
+            1750
+           </option>
+           <option value="1745">
+            1745
+           </option>
+           <option value="1740">
+            1740
+           </option>
+           <option value="1735">
+            1735
+           </option>
+           <option value="1730">
+            1730
+           </option>
+           <option value="1725">
+            1725
+           </option>
+           <option value="1720">
+            1720
+           </option>
+           <option value="1715">
+            1715
+           </option>
+           <option value="1710">
+            1710
+           </option>
+           <option value="1705">
+            1705
+           </option>
+           <option value="1700">
+            1700
+           </option>
+           <option value="1695">
+            1695
+           </option>
+           <option value="1690">
+            1690
+           </option>
+           <option value="1685">
+            1685
+           </option>
+           <option value="1680">
+            1680
+           </option>
+           <option value="1675">
+            1675
+           </option>
+           <option value="1670">
+            1670
+           </option>
+           <option value="1665">
+            1665
+           </option>
+           <option value="1660">
+            1660
+           </option>
+           <option value="1655">
+            1655
+           </option>
+           <option value="1650">
+            1650
+           </option>
+           <option value="1645">
+            1645
+           </option>
+           <option value="1640">
+            1640
+           </option>
+           <option value="1635">
+            1635
+           </option>
+           <option value="1630">
+            1630
+           </option>
+           <option value="1625">
+            1625
+           </option>
+           <option value="1620">
+            1620
+           </option>
+           <option value="1615">
+            1615
+           </option>
+           <option value="1610">
+            1610
+           </option>
+           <option value="1605">
+            1605
+           </option>
+           <option value="1600">
+            1600
+           </option>
+           <option value="1595">
+            1595
+           </option>
+           <option value="1590">
+            1590
+           </option>
+           <option value="1585">
+            1585
+           </option>
+           <option value="1580">
+            1580
+           </option>
+           <option value="1575">
+            1575
+           </option>
+           <option value="1570">
+            1570
+           </option>
+           <option value="1565">
+            1565
+           </option>
+           <option value="1560">
+            1560
+           </option>
+           <option value="1555">
+            1555
+           </option>
+           <option value="1550">
+            1550
+           </option>
+           <option value="1545">
+            1545
+           </option>
+           <option value="1540">
+            1540
+           </option>
+           <option value="1535">
+            1535
+           </option>
+           <option value="1530">
+            1530
+           </option>
+           <option value="1525">
+            1525
+           </option>
+           <option value="1520">
+            1520
+           </option>
+           <option value="1515">
+            1515
+           </option>
+           <option value="1510">
+            1510
+           </option>
+           <option value="1505">
+            1505
+           </option>
+           <option value="1500">
+            1500
+           </option>
+           <option value="1495">
+            1495
+           </option>
+           <option value="1490">
+            1490
+           </option>
+           <option value="1485">
+            1485
+           </option>
+           <option value="1480">
+            1480
+           </option>
+           <option value="1475">
+            1475
+           </option>
+           <option value="1470">
+            1470
+           </option>
+           <option value="1465">
+            1465
+           </option>
+           <option value="1460">
+            1460
+           </option>
+           <option value="1455">
+            1455
+           </option>
+           <option value="1450">
+            1450
+           </option>
+           <option value="1445">
+            1445
+           </option>
+           <option value="1440">
+            1440
+           </option>
+           <option value="1435">
+            1435
+           </option>
+           <option value="1430">
+            1430
+           </option>
+           <option value="1425">
+            1425
+           </option>
+           <option value="1420">
+            1420
+           </option>
+           <option value="1415">
+            1415
+           </option>
+           <option value="1410">
+            1410
+           </option>
+           <option value="1405">
+            1405
+           </option>
+           <option value="1400">
+            1400
+           </option>
+           <option value="1395">
+            1395
+           </option>
+           <option value="1390">
+            1390
+           </option>
+           <option value="1385">
+            1385
+           </option>
+           <option value="1380">
+            1380
+           </option>
+           <option value="1375">
+            1375
+           </option>
+           <option value="1370">
+            1370
+           </option>
+           <option value="1365">
+            1365
+           </option>
+           <option value="1360">
+            1360
+           </option>
+           <option value="1355">
+            1355
+           </option>
+           <option value="1350">
+            1350
+           </option>
+           <option value="1345">
+            1345
+           </option>
+           <option value="1340">
+            1340
+           </option>
+           <option value="1335">
+            1335
+           </option>
+           <option value="1330">
+            1330
+           </option>
+           <option value="1325">
+            1325
+           </option>
+           <option value="1320">
+            1320
+           </option>
+           <option value="1315">
+            1315
+           </option>
+           <option value="1310">
+            1310
+           </option>
+           <option value="1305">
+            1305
+           </option>
+           <option value="1300">
+            1300
+           </option>
+           <option value="1295">
+            1295
+           </option>
+           <option value="1290">
+            1290
+           </option>
+           <option value="1285">
+            1285
+           </option>
+           <option value="1280">
+            1280
+           </option>
+           <option value="1275">
+            1275
+           </option>
+           <option value="1270">
+            1270
+           </option>
+           <option value="1265">
+            1265
+           </option>
+           <option value="1260">
+            1260
+           </option>
+           <option value="1255">
+            1255
+           </option>
+           <option value="1250">
+            1250
+           </option>
+           <option value="1245">
+            1245
+           </option>
+           <option value="1240">
+            1240
+           </option>
+           <option value="1235">
+            1235
+           </option>
+           <option value="1230">
+            1230
+           </option>
+           <option value="1225">
+            1225
+           </option>
+           <option value="1220">
+            1220
+           </option>
+           <option value="1215">
+            1215
+           </option>
+           <option value="1210">
+            1210
+           </option>
+           <option value="1205">
+            1205
+           </option>
+           <option value="1200">
+            1200
+           </option>
+           <option value="1195">
+            1195
+           </option>
+           <option value="1190">
+            1190
+           </option>
+           <option value="1185">
+            1185
+           </option>
+           <option value="1180">
+            1180
+           </option>
+           <option value="1175">
+            1175
+           </option>
+           <option value="1170">
+            1170
+           </option>
+           <option value="1165">
+            1165
+           </option>
+           <option value="1160">
+            1160
+           </option>
+           <option value="1155">
+            1155
+           </option>
+           <option value="1150">
+            1150
+           </option>
+           <option value="1145">
+            1145
+           </option>
+           <option value="1140">
+            1140
+           </option>
+           <option value="1135">
+            1135
+           </option>
+           <option value="1130">
+            1130
+           </option>
+           <option value="1125">
+            1125
+           </option>
+           <option value="1120">
+            1120
+           </option>
+           <option value="1115">
+            1115
+           </option>
+           <option value="1110">
+            1110
+           </option>
+           <option value="1105">
+            1105
+           </option>
+           <option value="1100">
+            1100
+           </option>
+           <option value="1095">
+            1095
+           </option>
+           <option value="1090">
+            1090
+           </option>
+           <option value="1085">
+            1085
+           </option>
+           <option value="1080">
+            1080
+           </option>
+           <option value="1075">
+            1075
+           </option>
+           <option value="1070">
+            1070
+           </option>
+           <option value="1065">
+            1065
+           </option>
+           <option value="1060">
+            1060
+           </option>
+           <option value="1055">
+            1055
+           </option>
+           <option value="1050">
+            1050
+           </option>
+           <option value="1045">
+            1045
+           </option>
+           <option value="1040">
+            1040
+           </option>
+           <option value="1035">
+            1035
+           </option>
+           <option value="1030">
+            1030
+           </option>
+           <option value="1025">
+            1025
+           </option>
+           <option value="1020">
+            1020
+           </option>
+           <option value="1015">
+            1015
+           </option>
+           <option value="1010">
+            1010
+           </option>
+           <option value="1005">
+            1005
+           </option>
+           <option value="1000">
+            1000
+           </option>
+          </select>
+         </div>
+        </form>
+       </div>
+       <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+         Close
+        </button>
+        <button class="btn btn-primary date-filter-form-submit" data-form-id="data-filter-form-modal" type="button">
+         Filter
+        </button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="genre-modal-label" class="modal fade" id="genre-modal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h4 class="modal-title fs-5" id="genre-modal-label">
+         Filter by Genre
+        </h4>
+        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+        </button>
+       </div>
+       <div class="modal-body">
+        <div class="row categories-row">
+         <!-- Are there already categories selected? -->
+         <div class="row categories-row">
+          <!-- Search input row -->
+          <div class="col-12 mb-3 autocomplete-container">
+           <input class="form-control category-autocomplete" id="mobile-category-filter" placeholder="Search for Genres" type="text"/>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="adventure-bce047db-9f67-4195-b654-cffb3e8493b5" href="/the-greatest/adventure-bce047db-9f67-4195-b654-cffb3e8493b5/books">
+            Adventure (452)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="allegorical" href="/the-greatest/allegorical/books">
+            Allegorical (227)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="american-history" href="/the-greatest/american-history/books">
+            American History (289)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="anthologies" href="/the-greatest/anthologies/books">
+            Anthologies (290)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="autobiography" href="/the-greatest/autobiography/books">
+            Autobiography (441)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="biography" href="/the-greatest/biography/books">
+            Biography (353)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="children-s-books" href="/the-greatest/children-s-books/books">
+            Children's books (181)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="coming-of-age" href="/the-greatest/coming-of-age/books">
+            Coming of age (747)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="contemporary" href="/the-greatest/contemporary/books">
+            Contemporary (631)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="crime" href="/the-greatest/crime/books">
+            Crime (329)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="drama" href="/the-greatest/drama/books">
+            Drama (789)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="experimental" href="/the-greatest/experimental/books">
+            Experimental (258)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="family" href="/the-greatest/family/books">
+            Family (483)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="fantasy" href="/the-greatest/fantasy/books">
+            Fantasy (354)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="fiction" href="/the-greatest/fiction/books">
+            Fiction (3392)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="friendship" href="/the-greatest/friendship/books">
+            Friendship (222)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="historical-fiction" href="/the-greatest/historical-fiction/books">
+            Historical fiction (1152)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="history" href="/the-greatest/history/books">
+            History (510)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="humor" href="/the-greatest/humor/books">
+            Humor (321)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="magical-realism" href="/the-greatest/magical-realism/books">
+            Magical Realism (196)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="modernist" href="/the-greatest/modernist/books">
+            Modernist (262)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="mystery" href="/the-greatest/mystery/books">
+            Mystery (344)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="nonfiction" href="/the-greatest/nonfiction/books">
+            Nonfiction (1426)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="plays" href="/the-greatest/plays/books">
+            Plays (281)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="poetry" href="/the-greatest/poetry/books">
+            Poetry (662)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="political" href="/the-greatest/political/books">
+            Political (565)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="postmodern" href="/the-greatest/postmodern/books">
+            Postmodern (222)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="psychological" href="/the-greatest/psychological/books">
+            Psychological (781)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="romance" href="/the-greatest/romance/books">
+            Romance (291)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="satire" href="/the-greatest/satire/books">
+            Satire (538)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="science-fiction" href="/the-greatest/science-fiction/books">
+            Science fiction (403)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="short-stories-3b05c143-3060-4ba0-8c12-52547523f50e" href="/the-greatest/short-stories-3b05c143-3060-4ba0-8c12-52547523f50e/books">
+            Short Stories (272)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="social-commentary" href="/the-greatest/social-commentary/books">
+            Social &amp; Cultural Fiction (1026)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="metaphysical-visionary-fiction" href="/the-greatest/metaphysical-visionary-fiction/books">
+            Speculative Fiction (294)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="category-link d-block mb-2" data-slug="suspense" href="/the-greatest/suspense/books">
+            Suspense (397)
+           </a>
+           <a class="category-link d-block mb-2" data-slug="thrillers" href="/the-greatest/thrillers/books">
+            Thrillers (253)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="fw-semibold" href="/genres">
+            View all genres
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="country-modal-label" class="modal fade" id="country-modal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h4 class="modal-title fs-5" id="country-modal-label">
+         Filter by Country
+        </h4>
+        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+        </button>
+       </div>
+       <div class="modal-body">
+        <div class="row categories-row">
+         <!-- Are there already categories selected? -->
+         <div class="row countries-row">
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/american/authors">
+            American (2713)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/argentinian/authors">
+            Argentinian (23)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/australian/authors">
+            Australian (60)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/austrian/authors">
+            Austrian (83)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/british/authors">
+            British (1396)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/canadian/authors">
+            Canadian (97)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/chinese/authors">
+            Chinese (43)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/colombian/authors">
+            Colombian (25)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/czech/authors">
+            Czech (23)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/dutch/authors">
+            Dutch (24)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/egyptian/authors">
+            Egyptian (18)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/english/authors">
+            English (35)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/french/authors">
+            French (428)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/german/authors">
+            German (229)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/greek/authors">
+            Greek (94)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/hungarian/authors">
+            Hungarian (62)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/indian/authors">
+            Indian (55)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/irish/authors">
+            Irish (130)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/israeli/authors">
+            Israeli (24)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/italian/authors">
+            Italian (131)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/japanese/authors">
+            Japanese (56)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/mexican/authors">
+            Mexican (22)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/multiple/authors">
+            Multiple (19)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/new-zealander/authors">
+            New Zealander (31)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/nigerian/authors">
+            Nigerian (32)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/norwegian/authors">
+            Norwegian (33)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/polish/authors">
+            Polish (48)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/portuguese/authors">
+            Portuguese (24)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/roman/authors">
+            Roman (28)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/russian/authors">
+            Russian (190)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/scottish/authors">
+            Scottish (46)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/south-african/authors">
+            South African (42)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/spanish/authors">
+            Spanish (106)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/swedish/authors">
+            Swedish (59)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/swiss/authors">
+            Swiss (29)
+           </a>
+           <a class="d-block mb-2" href="/the-greatest-books/written-by/unknown/authors">
+            Unknown (123)
+           </a>
+          </div>
+          <div class="col-6">
+           <a class="fw-semibold" href="/countries">
+            View all countries
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- wtf Modal -->
+    <div aria-hidden="true" aria-labelledby="survey-modal-label" class="modal fade" id="survey-modal" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h4 class="modal-title fs-5" id="survey-modal-label">
+         Your Favorite Books
+        </h4>
+        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+        </button>
+       </div>
+       <div class="modal-body">
+        <turbo-frame id="survey" loading="lazy" src="/user_lists/show_survey">
+         Loading...
+        </turbo-frame>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <form accept-charset="UTF-8" action="/users/sign_in" class="invisible" data-controller="login" id="sign-in-form" method="post">
+   <input autocomplete="off" name="authenticity_token" type="hidden" value="L5v63paO5Fv8LOQW01GWhYVWv6WWbms5hGWjSvGPGBzx8bp7Xt7KhbDPg1GjKIZitRZVgbGfm6pW_kNqzs1Hyw"/>
+   <input id="auth_data_json" name="auth_data_json" type="text"/>
+  </form>
+  <form accept-charset="UTF-8" action="/users/sign_out" class="invisible" id="sign-out-form" method="post">
+   <input autocomplete="off" name="authenticity_token" type="hidden" value="bQLx7SjM6Z9hvCVDLQ2qmW8xbqX0X8sOoc9cffPktBNrgc7-S8CPQHmCq55S_2KQw4ZfPSQi4p2S0QuSd2N6-g"/>
+  </form>
+  <div aria-hidden="true" aria-labelledby="authModalLabel" class="modal fade" id="authModal" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="authModalLabel">
+       Sign In
+      </h5>
+      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+      </button>
+     </div>
+     <div class="modal-body">
+      <turbo-frame id="auth-modal-body" loading="lazy" src="/users/auth_modal">
+       Loading...
+      </turbo-frame>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+       Close
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <turbo-frame>
+   <form accept-charset="UTF-8" action="/user_book_actions/index" data-turbo-method="post" id="user-book-actions-form" method="post">
+    <input autocomplete="off" name="authenticity_token" type="hidden" value="48QsgaXvOidtq-s_8yc-sWcZNJx_2HmupuwtnOzb7NkgUpBX16cSA1G3nyhn2-8t4p6qYkTwW-hUqJMjA2IaxA"/>
+    <input autocomplete="off" id="book_ids" name="book_ids" type="hidden"/>
+   </form>
+  </turbo-frame>
+  <turbo-frame id="review-modal">
+  </turbo-frame>
+  <!-- Modal -->
+  <div aria-hidden="true" aria-labelledby="purchaseModalLabel" class="modal fade" id="purchaseModal" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">
+       Purchase this book
+      </h1>
+      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+      </button>
+     </div>
+     <div class="modal-body">
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+       Close
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="bg-light text-center text-dark">
+   <div class="container py-4">
+    <!-- Existing content -->
+    <ul class="list-unstyled d-flex justify-content-center mb-3">
+     <li class="me-3">
+      <a class="text-dark" href="/privacy_policy">
+       Privacy Policy
+      </a>
+     </li>
+     <li class="me-3">
+      <a class="text-dark" href="/deletion_policy">
+       Deletion Policy
+      </a>
+     </li>
+     <li class="me-3">
+      <a class="text-dark" href="https://www.buymeacoffee.com/thegreatest" target="_blank">
+       Support the Site!
+      </a>
+     </li>
+    </ul>
+    <p class="mb-4">
+     <a href="https://www.buymeacoffee.com/thegreatest" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=Support The Site!&amp;emoji=📖&amp;slug=thegreatest&amp;button_colour=5F7FFF&amp;font_colour=ffffff&amp;font_family=Bree&amp;outline_colour=000000&amp;coffee_colour=FFDD00"/>
+     </a>
+    </p>
+    <p class="mb-4">
+     © 2024 The Greatest Books
+    </p>
+    <!-- Social Media Links -->
+    <div class="row justify-content-center mb-3">
+     <!-- Twitter -->
+     <div class="col-auto">
+      <a class="btn btn-sm btn-twitter" href="https://twitter.com/thegreatestbks">
+       <i class="bi bi-twitter">
+       </i>
+      </a>
+     </div>
+     <!-- Discord -->
+     <div class="col-auto">
+      <a class="btn btn-sm btn-discord" href="https://discord.gg/8JE9fpMtZp">
+       <i class="bi bi-discord">
+       </i>
+      </a>
+     </div>
+     <!-- Facebook -->
+     <div class="col-auto">
+      <a class="btn btn-sm btn-facebook" href="https://www.facebook.com/profile.php?id=61555129978566">
+       <i class="bi bi-facebook">
+       </i>
+      </a>
+     </div>
+     <!-- Instagram -->
+     <div class="col-auto">
+      <a class="btn btn-sm btn-instagram" href="https://www.instagram.com/thegreatestbooksever/">
+       <i class="bi bi-instagram">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11479131-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+  <script>
+   __ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=0&cb=3', false, ['/parsonsmaize/mulvane.js'], true, false, true, false);
+  </script>
+  <script>
+   var _audins_dom="thegreatestbooks_org",_audins_did=528756;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezodn.com/detroitchicago/audins.js?cb=3");
+  </script>
+  <noscript>
+   <div style="display:none;">
+    <img alt="Quantcast" border="0" height="1" src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.thegreatestbooks_org,DomainId.528756" width="1"/>
+   </div>
+  </noscript>
+  <script>
+   __ez.queue.addFile('/beardeddragon/drake.js', '/beardeddragon/drake.js?gcb=0&cb=8', false, [], true, false, true, false);
+  </script>
+  <script style="display:none;" type="text/javascript">
+   var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+	
+		var setAllCookies = function() {
+			setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+			setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));    
+		};
+	
+		if (window.ezTcfConsent && window.ezTcfConsent.loaded) {
+			if (window.ezTcfConsent.understand_audiences) { 
+				setAllCookies();
+			}
+		} else if (typeof getEzConsentData === "function") {
+			getEzConsentData().then(function (ezTcfConsent) {
+				if (ezTcfConsent && ezTcfConsent.loaded) {
+					if (ezTcfConsent.understand_audiences) { 
+						setAllCookies();
+					}
+				} else {
+					console.error("cannot get ez consent data");
+					setAllCookies();
+				}
+			});
+		} else {
+			console.error("getEzConsentData is not a function");
+			setAllCookies();
+		}
+	
+	})();
+  </script>
+  <script async="" style="display:none;" type="text/javascript">
+   __ez.queue.addFile('/parsonsmaize/chanute.js', '/parsonsmaize/chanute.js?a=a&cb=9&dcb=195-0&shcb=34', true, ['/parsonsmaize/mulvane.js'], true, false, false, false);
+  </script>
+  <script async="" style="display:none;" type="text/javascript">
+   __ez.queue.addFile('/porpoiseant/jellyfish.js', '/porpoiseant/jellyfish.js?a=a&cb=13&dcb=195-0&shcb=34', false, [], true, false, false, false);
+  </script>
+  <script>
+   if(typeof _ezaq!=="undefined"&&typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof __ezDotData=="function"){if("cookieDeprecationLabel"in navigator){navigator.cookieDeprecationLabel.getValue().then((label)=>{__ez.bit.AddAndFire(_ezaq["page_view_id"],[new __ezDotData("chrome_cookie_deprecation_label",label),]);});}}
+  </script>
+  <script data-cfasync="false">
+   function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.thegreatestbooks.org;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);
+  </script>
+ </body>
+</html>
