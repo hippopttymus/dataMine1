@@ -1,0 +1,509 @@
+ID,rtable_Rank,rtable_Book_Title,rtable_Author,ltable_Rank,ltable_Book_Title,ltable_Author
+0,518,Demian. Die Geschichte von Emil Sinclairs Jugend,Hermann Hesse,1415,Demian,Hermann Hesse
+1,2001,These Happy Golden Years (Little House  #8),Laura Ingalls Wilder,1016,Little House on the Prairie,Laura Ingalls Wilder
+2,1873,Os Maias,Ea de Queir—s,1179,The Maias: Episodes from Romantic Life,Ea de Queir—s
+3,2172,The Oresteia: Agamemnon  The Libation Bearers  The Eumenides,Aeschylus,171,Oresteia,Aeschylus
+4,1689,Thud! (Discworld  #34; City Watch  #7),Terry Pratchett,2372,Night Watch,Terry Pratchett
+5,1127,The Tipping Point: How Little Things Can Make a Big Difference,Malcolm Gladwell,628,The Tipping Point,Malcolm Gladwell
+6,1075,Guards! Guards! (Discworld  #8; City Watch  #1),Terry Pratchett,2372,Night Watch,Terry Pratchett
+7,569,Oedipus Rex  (The Theban Plays  #1),Sophocles,63,Oedipus the King,Sophocles
+8,1305,Pedro P‡ramo,Juan Rulfo,286,Pedro Paramo,Juan Rulfo
+9,1141,The Gormenghast Novels (Gormenghast  #1-3),Mervyn Peake,845,Gormenghast,Mervyn Peake
+10,675,Ender's Shadow (The Shadow Series  #1),Orson Scott Card,725,Ender's Game,Orson Scott Card
+11,247,The Crucible: A Play in Four Acts,Arthur Miller,1294,The Crucible,Arthur Miller
+12,1743,Xenocide (Ender's Saga  #3),Orson Scott Card,725,Ender's Game,Orson Scott Card
+13,2119,Bitterblue (Graceling Realm  #3),Kristin Cashore,2424,Graceling,Kristin Cashore
+14,691,Antigone (The Theban Plays  #3),Sophocles,86,Antigone,Sophocles
+15,208,The Girl Who Played with Fire (Millennium  #2),Stieg Larsson,2445,The Girl with the Dragon Tattoo,Stieg Larsson
+16,149,The Little House Collection (Little House  #1-9),Laura Ingalls Wilder,1016,Little House on the Prairie,Laura Ingalls Wilder
+17,348,Blood Meridian  or  the Evening Redness in the West,Cormac McCarthy,159,Blood Meridian,Cormac McCarthy
+18,772,A Study in Scarlet (Sherlock Holmes  #1),Arthur Conan Doyle,133,The Complete Sherlock Holmes,Arthur Conan Doyle
+19,1994,Legend (The Drenai Saga  #1),David Gemmell,1859,Legend,David Gemmell
+20,374,The Chosen (Reuven Malther  #1),Chaim Potok,2413,The Chosen,Chaim Potok
+21,1415,Doomsday Book (Oxford Time Travel  #1),Connie Willis,1437,Doomsday Book,Connie Willis
+22,719,Fire (Graceling Realm  #2),Kristin Cashore,2424,Graceling,Kristin Cashore
+23,498,Trainspotting (Mark Renton  #2),Irvine Welsh,2373,Trainspotting,Irvine Welsh
+24,1757,Second Foundation (Foundation  #3),Isaac Asimov,371,Foundation,Isaac Asimov
+25,371,Faust  First Part,Johann Wolfgang von Goethe,95,Faust,Johann Wolfgang von Goethe
+26,386,Neuromancer (Sprawl  #1),William Gibson,564,Neuromancer,William Gibson
+27,852,The Dispossessed: An Ambiguous Utopia,Ursula K. Le Guin,1010,The Dispossessed,Ursula K. Le Guin
+28,559,1Q84 (1Q84  #1-3),Haruki Murakami,981,1Q84,Haruki Murakami
+29,2242,Life After Life (Todd Family  #1),Kate Atkinson,493,Life After Life,Kate Atkinson
+30,1666,The Physician (Cole Family Trilogy  #1),Noah Gordon,1352,The Physician,Noah Gordon
+31,1866,The Long Goodbye (Philip Marlowe  #6),Raymond Chandler,192,The Long Goodbye: A Novel,Raymond Chandler
+32,2084,Master & Commander (Aubrey & Maturin  #1),Patrick O'Brian,917,Master and Commander,Patrick O'Brian
+33,246,HowlÕs Moving Castle (HowlÕs Moving Castle  #1),Diana Wynne Jones,1271,Howl's Moving Castle,Diana Wynne Jones
+34,1240,Labyrinths: Selected Stories & Other Writings,Jorge Luis Borges,369,Labyrinths,Jorge Luis Borges
+35,2019,Dune Messiah (Dune  #2),Frank Herbert,132,Dune,Frank Herbert
+36,2021,A Memory of Light (The Wheel of Time  #14),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+37,1543,Fast Food Nation: The Dark Side of the All-American Meal,Eric Schlosser,1720,Fast Food Nation,Eric Schlosser
+38,2335,Towers of Midnight (The Wheel of Time  #13),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+39,1041,The Dragon Reborn (The Wheel of Time #3),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+40,601,Night Watch (Discworld  #29; City Watch  #6),Terry Pratchett,2372,Night Watch,Terry Pratchett
+41,1362,The Gathering Storm (The Wheel of Time  #12),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+42,1213,The Life and Opinions of Tristram Shandy  Gentleman,Laurence Sterne,56,Tristram Shandy,Laurence Sterne
+43,1241,The Shadow Rising (The Wheel of Time  #4),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+44,1812,The Daughter of Time (Inspector Alan Grant  #5),Josephine Tey,943,The Daughter of Time,Josephine Tey
+45,1919,Lord of Chaos (The Wheel of Time  #6),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+46,64,Dune (Dune  #1),Frank Herbert,132,Dune,Frank Herbert
+47,2322,A Bright Shining Lie: John Paul Vann and America in Vietnam,Neil Sheehan,849,A Bright Shining Lie,Neil Sheehan
+48,1256,The Ballad of Songbirds and Snakes (The Hunger Games  #0),Suzanne Collins,507,The Hunger Games,Suzanne Collins
+49,724,Orlando,Virginia Woolf,112,Orlando: A Biography,Virginia Woolf
+50,1273,Freedom,Jonathan Franzen,428,Freedom: A Novel,Jonathan Franzen
+51,2356,The Fires of Heaven (The Wheel of Time  #5),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+52,93,Angela's Ashes (Frank McCourt  #1),Frank McCourt,474,Angela's Ashes: A Memoir,Frank McCourt
+53,1697,2666,Roberto Bola–o,172,2666,Roberto Bola–o
+54,961,GiovanniÕs Room,James Baldwin,505,Giovanni's Room,James Baldwin
+55,319,The Amber Spyglass (His Dark Materials  #3),Philip Pullman,1600,The Amber Spyglass,Philip Pullman
+56,390,I  Robot (Robot  #0.1),Isaac Asimov,951,I  Robot,Isaac Asimov
+57,1449,A Suitable Boy (A Bridge of Leaves  #1),Vikram Seth,376,A Suitable Boy,Vikram Seth
+58,1110,The Complete Fairy Tales,Hans Christian Andersen,152,Fairy Tales and Stories,Hans Christian Andersen
+59,227,SchindlerÕs List,Thomas Keneally,436,Schindler's List,Thomas Keneally
+60,299,Uncle TomÕs Cabin,Harriet Beecher Stowe,521,Uncle Tom's Cabin,Harriet Beecher Stowe
+61,2076,Heart of Darkness and The Secret Sharer,Joseph Conrad,21,Heart of Darkness,Joseph Conrad
+62,1259,The Great Hunt (The Wheel of Time #2),Robert Jordan,1324,The Wheel of Time Series,Robert Jordan
+63,537,The Bean Trees (Greer Family  #1),Barbara Kingsolver,914,The Bean Trees,Barbara Kingsolver
+64,1991,Psycho (Psycho  #1),Robert Bloch,2296,Psycho,Robert Bloch
+65,916,Collected Fictions,Jorge Luis Borges,66,Fictions,Jorge Luis Borges
+66,334,My çntonia,Willa Cather,146,My Antonia,Willa Cather
+67,1349,The Sign of Four (Sherlock Holmes  #2),Arthur Conan Doyle,133,The Complete Sherlock Holmes,Arthur Conan Doyle
+68,1268,AesopÕs Fables,Aesop,718,Aesop's Fables,Aesop
+69,235,The Iliad / The Odyssey,Homer,16,The Odyssey,Homer
+70,1351,Wolf Hall (Thomas Cromwell  #1),Hilary Mantel,216,Wolf Hall,Hilary Mantel
+71,181,The Hunger Games Trilogy Boxset (The Hunger Games  #1-3),Suzanne Collins,507,The Hunger Games,Suzanne Collins
+72,1539,PortnoyÕs Complaint,Philip Roth,236,Portnoy's Complaint,Philip Roth
+73,2232,V.,Thomas Pynchon,961,V,Thomas Pynchon
+74,107,Moby-Dick or  The Whale,Herman Melville,6,Moby Dick,Herman Melville
+75,1387,Americanah,Chimamanda Ngozi Adichie,314,Americanah,Chimamanda Ngozi Adichie
+76,1173,Gilead (Gilead  #1),Marilynne Robinson,195,Gilead,Marilynne Robinson
+77,1580,Suttree,Cormac McCarthy,956,Suttree,Cormac McCarthy
+78,1796,The Call of the Wild  White Fang and Other Stories,Jack London,168,The Call of the Wild,Jack London
+79,794,We,Yevgeny Zamyatin,544,We,Yevgeny Zamyatin
+80,1134,Metamorphoses,Ovid,145,Metamorphoses,Ovid
+81,1863,Faust,Johann Wolfgang von Goethe,95,Faust,Johann Wolfgang von Goethe
+82,424,Emma,Jane Austen,87,Emma,Jane Austen
+83,1067,The Decameron,Giovanni Boccaccio,129,Decameron,Giovanni Boccaccio
+84,669,Ivanhoe,Walter Scott,491,Ivanhoe,Walter Scott
+85,1485,Medea,Euripides,212,Medea,Euripides
+86,89,The Golden Compass (His Dark Materials  #1),Philip Pullman,217,His Dark Materials,Philip Pullman
+87,215,Beloved,Toni Morrison,33,Beloved,Toni Morrison
+88,978,Ubik,Philip K. Dick,754,Ubik,Philip K. Dick
+89,770,Absalom  Absalom!,William Faulkner,40,Absalom  Absalom!,William Faulkner
+90,257,Blindness,JosŽ Saramago,1225,Blindness,JosŽ Saramago
+91,358,Pippi Longstocking (Pippi LŒngstrump  #1),Astrid Lindgren,251,Pippi Longstocking,Astrid Lindgren
+92,414,I  Claudius (Claudius  #1),Robert Graves,280,I  Claudius,Robert Graves
+93,33,Dracula,Bram Stoker,105,Dracula,Bram Stoker
+94,671,The Big Sleep (Philip Marlowe  #1),Raymond Chandler,137,The Big Sleep,Raymond Chandler
+95,2266,Oblomov,Ivan Goncharov,381,Oblomov,Ivan Goncharov
+96,942,Birdsong,Sebastian Faulks,787,Birdsong,Sebastian Faulks
+97,1255,Contact,Carl Sagan,1726,Contact,Carl Sagan
+98,69,Matilda,Roald Dahl,703,Matilda,Roald Dahl
+99,738,Meditations,Marcus Aurelius,283,Meditations,Marcus Aurelius
+100,928,Momo,Michael Ende,1312,Momo,Michael Ende
+101,75,Rebecca,Daphne du Maurier,92,Rebecca,Daphne du Maurier
+102,1468,Grendel,John Gardner,2325,Grendel,John Gardner
+103,1297,Centennial,James A. Michener,1762,Centennial,James A. Michener
+104,397,Dubliners,James Joyce,388,Dubliners,James Joyce
+105,2224,Utopia,Thomas More,722,Utopia,Thomas More
+106,63,Lolita,Vladimir Nabokov,14,Lolita,Vladimir Nabokov
+107,1135,Hiroshima,John Hersey,398,Hiroshima,John Hersey
+108,1105,Hopscotch,Julio Cort‡zar,697,Hopscotch,Julio Cort‡zar
+109,119,Middlesex,Jeffrey Eugenides,196,Middlesex,Jeffrey Eugenides
+110,207,Ulysses,James Joyce,1,Ulysses,James Joyce
+111,1877,Housekeeping,Marilynne Robinson,553,Housekeeping,Marilynne Robinson
+112,73,The Adventures of Sherlock Holmes (Sherlock Holmes  #3),Arthur Conan Doyle,133,The Complete Sherlock Holmes,Arthur Conan Doyle
+113,690,The Color of Magic (Discworld  #1; Rincewind  #1),Terry Pratchett,1132,The Colour of Magic,Terry Pratchett
+114,1332,My Brilliant Friend (The Neapolitan Novels  #1),Elena Ferrante,495,My Brilliant Friend,Elena Ferrante
+115,666,The Aeneid,Virgil,43,The Aeneid,Virgil
+116,86,The Road,Cormac McCarthy,189,The Road,Cormac McCarthy
+117,1476,The Oedipus Cycle: Oedipus Rex  Oedipus at Colonus  Antigone,Sophocles,199,Oedipus at Colonus,Sophocles
+118,1989,So Long  and Thanks for All the Fish (The Hitchhiker's Guide to the Galaxy  #4),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+119,778,The Fall,Albert Camus,871,The Fall,Albert Camus
+120,2233,The Castle,Franz Kafka,101,The Castle,Franz Kafka
+121,341,The Subtle Knife (His Dark Materials  #2),Philip Pullman,217,His Dark Materials,Philip Pullman
+122,1544,War and Remembrance (The Henry Family  #2),Herman Wouk,1761,War and Remembrance,Herman Wouk
+123,648,The Iliad,Homer,24,The Iliad,Homer
+124,1758,The Cat in the Hat Comes Back (The Cat in the Hat  #2),Dr. Seuss,990,The Cat in the Hat,Dr. Seuss
+125,901,The Last of the Mohicans (The Leatherstocking Tales  #2),James Fenimore Cooper,584,The Last of the Mohicans,James Fenimore Cooper
+126,1511,The Alexandria Quartet  (The Alexandria Quartet  #1-4),Lawrence Durrell,782,The Alexandria Quartet,Lawrence Durrell
+127,34,EnderÕs Game (Ender's Saga  #1),Orson Scott Card,725,Ender's Game,Orson Scott Card
+128,328,The Plague,Albert Camus,198,The Plague,Albert Camus
+129,51,The Odyssey,Homer,16,The Odyssey,Homer
+130,514,Speaker for the Dead (Ender's Saga  #2),Orson Scott Card,1438,Speaker for the Dead,Orson Scott Card
+131,190,The Good Earth (House of Earth  #1),Pearl S. Buck,292,The Good Earth,Pearl S. Buck
+132,1749,The Twits,Roald Dahl,1319,The Twits,Roald Dahl
+133,236,The Trial,Franz Kafka,35,The Trial,Franz Kafka
+134,117,The Metamorphosis,Franz Kafka,84,The Metamorphosis,Franz Kafka
+135,603,The Magus,John Fowles,705,The Magus,John Fowles
+136,188,The Prophet,Kahlil Gibran,907,The Prophet,Kahlil Gibran
+137,286,The Idiot,Fyodor Dostoevsky,67,The Idiot,Fyodor Dostoevsky
+138,391,The Reader,Bernhard Schlink,915,The Reader,Bernhard Schlink
+139,1114,Tinker  Tailor  Soldier  Spy (George Smiley  #5; Karla Trilogy  #1),John le CarrŽ,650,Tinker  Tailor  Soldier Spy,John le CarrŽ
+140,1639,Atlas Shrugged & The Fountainhead,Ayn Rand,243,Atlas Shrugged,Ayn Rand
+141,863,Animal Farm / 1984,George Orwell,79,Animal Farm,George Orwell
+142,1420,Hunger,Knut Hamsun,229,Hunger,Knut Hamsun
+143,203,Oliver Twist,Charles Dickens,256,The Adventures of Oliver Twist,Charles Dickens
+144,886,All the Pretty Horses (The Border Trilogy  #1),Cormac McCarthy,270,All the Pretty Horses,Cormac McCarthy
+145,806,A Room of OneÕs Own,Virginia Woolf,193,A Room of One's Own,Virginia Woolf
+146,1443,The Moonstone,Wilkie Collins,475,The Moonstone,Wilkie Collins
+147,891,The Tempest,William Shakespeare,165,The Tempest,William Shakespeare
+148,682,The Corrections,Jonathan Franzen,140,The Corrections,Jonathan Franzen
+149,175,The Lorax,Dr. Seuss,1162,The Lorax,Dr. Seuss
+150,396,The Exorcist,William Peter Blatty,2357,The Exorcist,William Peter Blatty
+151,310,The BFG,Roald Dahl,747,The BFG,Roald Dahl
+152,407,The Republic,Plato,148,The Republic,Plato
+153,731,The Namesake,Jhumpa Lahiri,596,The Namesake,Jhumpa Lahiri
+154,818,The Fountainhead,Ayn Rand,355,The Fountainhead,Ayn Rand
+155,135,The Godfather (The Godfather  #1),Mario Puzo,499,The Godfather,Mario Puzo
+156,1781,The Selected Writings of Edgar Allan Poe,Edgar Allan Poe,59,The Complete Tales and Poems of Edgar Allan Poe,Edgar Allan Poe
+157,1841,Black Boy,Richard Wright,512,Black Boy,Richard Wright
+158,150,Lonesome Dove (Lonesome Dove  #1),Larry McMurtry,417,Lonesome Dove,Larry McMurtry
+159,91,Siddhartha,Hermann Hesse,313,Siddhartha,Hermann Hesse
+160,22,AliceÕs Adventures in Wonderland / Through the Looking-Glass,Lewis Carroll,269,Through the Looking Glass,Lewis Carroll
+161,224,His Dark Materials (His Dark Materials #1-3),Philip Pullman,217,His Dark Materials,Philip Pullman
+162,38,Fahrenheit 451,Ray Bradbury,204,Fahrenheit 451,Ray Bradbury
+163,104,Fahrenheit 451,Ray Bradbury,204,Fahrenheit 451,Ray Bradbury
+164,637,Death on the Nile (Hercule Poirot  #18),Agatha Christie,1287,Death On The Nile,Agatha Christie
+165,744,Pale Fire,Vladimir Nabokov,102,Pale Fire,Vladimir Nabokov
+166,2247,The Civil War: A Narrative,Shelby Foote,284,The Civil War,Shelby Foote
+167,2148,Time and Again (Time  #1),Jack Finney,957,Time and Again,Jack Finney
+168,71,Catch-22,Joseph Heller,23,Catch-22,Joseph Heller
+169,423,Bleak House,Charles Dickens,179,Bleak House,Charles Dickens
+170,183,Tess of the DÕUrbervilles,Thomas Hardy,110,Tess of the d'Urbervilles,Thomas Hardy
+171,1153,Dead Souls,Nikolai Gogol,89,Dead Souls,Nikolai Gogol
+172,1164,The Book of Disquiet: The Complete Edition,Fernando Pessoa,331,The Book of Disquiet,Fernando Pessoa
+173,283,Othello,William Shakespeare,570,Othello,William Shakespeare
+174,173,Catching Fire (The Hunger Games  #2),Suzanne Collins,507,The Hunger Games,Suzanne Collins
+175,300,Invisible Man,Ralph Ellison,28,Invisible Man,Ralph Ellison
+176,920,Fingersmith,Sarah Waters,778,Fingersmith,Sarah Waters
+177,477,Macbeth,William Shakespeare,208,Macbeth,William Shakespeare
+178,939,Germinal,ƒmile Zola,413,Germinal,ƒmile Zola
+179,567,Mythology,Edith Hamilton,744,Mythology,Edith Hamilton
+180,389,Persuasion,Jane Austen,394,Persuasion,Jane Austen
+181,1324,Pachinko,Min Jin Lee,1183,Pachinko,Min Jin Lee
+182,1551,Ghost Story,Peter Straub,2335,Ghost Story,Peter Straub
+183,860,White Noise,Don DeLillo,203,White Noise,Don DeLillo
+184,48,A Wrinkle in Time (Time Quintet  #1),Madeleine L'Engle,230,A Wrinkle In Time,Madeleine L'Engle
+185,133,On the Road,Jack Kerouac,69,On the Road,Jack Kerouac
+186,1797,Moon Palace,Paul Auster,1921,Moon Palace,Paul Auster
+187,409,The Jungle,Upton Sinclair,224,The Jungle,Upton Sinclair
+188,698,The Jungle Books,Rudyard Kipling,1253,The Jungle Book,Rudyard Kipling
+189,110,The Stranger,Albert Camus,30,The Stranger,Albert Camus
+190,1181,What Is the What,Dave Eggers,1428,What Is the What,Dave Eggers
+191,454,Vanity Fair,William Makepeace Thackeray,94,Vanity Fair,William Makepeace Thackeray
+192,269,Mockingjay (The Hunger Games  #3),Suzanne Collins,507,The Hunger Games,Suzanne Collins
+193,1918,Little Dorrit,Charles Dickens,795,Little Dorrit,Charles Dickens
+194,292,King Lear,William Shakespeare,190,King Lear,William Shakespeare
+195,1891,Common Sense,Thomas Paine,1226,Common Sense,Thomas Paine
+196,917,The Waves,Virginia Woolf,285,The Waves,Virginia Woolf
+197,802,A Moveable Feast,Ernest Hemingway,437,Moveable Feast,Ernest Hemingway
+198,1800,Tales of the City (Tales of the City  #1),Armistead Maupin,625,Tales of the City,Armistead Maupin
+199,587,Native Son,Richard Wright,91,Native Son,Richard Wright
+200,1366,American Pastoral,Philip Roth,144,American Pastoral,Philip Roth
+201,61,Life of Pi,Yann Martel,395,Life of Pi,Yann Martel
+202,177,Goodnight Moon,Margaret Wise Brown,445,Goodnight Moon,Margaret Wise Brown
+203,76,Great Expectations,Charles Dickens,32,Great Expectations,Charles Dickens
+204,1745,Haroun and the Sea of Stories (Khalifa Brothers  #1),Salman Rushdie,736,Haroun and the Sea of Stories,Salman Rushdie
+205,981,Tropic of Cancer (Tropic  #1),Henry Miller,366,Tropic of Cancer,Henry Miller
+206,81,Anna Karenina,Leo Tolstoy,22,Anna Karenina,Leo Tolstoy
+207,767,Revolutionary Road,Richard Yates,641,Revolutionary Road,Richard Yates
+208,1112,White Teeth,Zadie Smith,138,White Teeth,Zadie Smith
+209,834,The Poetry of Robert Frost,Robert Frost,323,The Poems of Robert Frost,Robert Frost
+210,1102,The Quiet American,Graham Greene,682,The Quiet American,Graham Greene
+211,2201,Sister Carrie,Theodore Dreiser,561,Sister Carrie,Theodore Dreiser
+212,742,The Restaurant at the End of the Universe (The Hitchhiker's Guide to the Galaxy  #2),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+213,7,Animal Farm,George Orwell,79,Animal Farm,George Orwell
+214,962,Invisible Cities,Italo Calvino,687,Invisible Cities,Italo Calvino
+215,1659,The Secret History,Donna Tartt,359,The Secret History,Donna Tartt
+216,185,The Secret History,Donna Tartt,359,The Secret History,Donna Tartt
+217,49,Little Women,Louisa May Alcott,127,Little Women,Louisa May Alcott
+218,879,Silas Marner,George Eliot,347,Silas Marner,George Eliot
+219,2257,Desert Solitaire,Edward Abbey,972,Desert Solitaire,Edward Abbey
+220,1057,Quo Vadis,Henryk Sienkiewicz,1278,Quo Vadis,Henryk Sienkiewicz
+221,1374,Silent Spring,Rachel Carson,118,Silent Spring,Rachel Carson
+222,199,Madame Bovary,Gustave Flaubert,20,Madame Bovary,Gustave Flaubert
+223,145,The Cat in the Hat (The Cat in the Hat  #1),Dr. Seuss,990,The Cat in the Hat,Dr. Seuss
+224,184,Heart of Darkness,Joseph Conrad,21,Heart of Darkness,Joseph Conrad
+225,458,Cannery Row (Cannery Row  #1),John Steinbeck,1581,Cannery Row,John Steinbeck
+226,1499,Out of Africa,Isak Dinesen,322,Out of Africa,Isak Dinesen
+227,408,The Goldfinch,Donna Tartt,350,The Goldfinch,Donna Tartt
+228,204,Treasure Island,Robert Louis Stevenson,99,Treasure Island,Robert Louis Stevenson
+229,318,Doctor Zhivago,Boris Pasternak,143,Doctor Zhivago,Boris Pasternak
+230,178,A Midsummer NightÕs Dream,William Shakespeare,446,A Midsummer Night's Dream,William Shakespeare
+231,311,Robinson Crusoe,Daniel Defoe,103,Robinson Crusoe,Daniel Defoe
+232,1710,Being and Time,Martin Heidegger,1613,Being and Time,Martin Heidegger
+233,20,The Little Prince,Antoine de Saint-ExupŽry,71,The Little Prince,Antoine de Saint-ExupŽry
+234,213,The Clan of the Cave Bear (Earth's Children  #1),Jean M. Auel,894,The Clan of the Cave Bear,Jean M. Auel
+235,1004,Life  the Universe and Everything (The Hitchhiker's Guide to the Galaxy  #3),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+236,369,High Fidelity,Nick Hornby,749,High Fidelity,Nick Hornby
+237,1934,Demon Copperhead,Barbara Kingsolver,850,Demon Copperhead,Barbara Kingsolver
+238,589,The History of Love,Nicole Krauss,2176,The History of Love,Nicole Krauss
+239,1091,The Satanic Verses,Salman Rushdie,423,Satanic Verses,Salman Rushdie
+240,101,Atlas Shrugged,Ayn Rand,243,Atlas Shrugged,Ayn Rand
+241,45,The Secret Garden,Frances Hodgson Burnett,783,The Secret Garden,Frances Hodgson Burnett
+242,1118,Memoirs of Hadrian,Marguerite Yourcenar,279,Memoirs of Hadrian,Marguerite Yourcenar
+243,686,Song of Solomon,Toni Morrison,183,Song of Solomon,Toni Morrison
+244,578,The Bluest Eye,Toni Morrison,514,The Bluest Eye,Toni Morrison
+245,219,David Copperfield,Charles Dickens,42,David Copperfield,Charles Dickens
+246,138,In Cold Blood,Truman Capote,131,In Cold Blood,Truman Capote
+247,1006,The Day of the Triffids,John Wyndham,752,The Day of the Triffids,John Wyndham
+248,1456,Richard III,William Shakespeare,692,Richard III,William Shakespeare
+249,441,Brideshead Revisited,Evelyn Waugh,346,Brideshead Revisited,Evelyn Waugh
+250,2366,Kristin Lavransdatter,Sigrid Undset,558,Kristin Lavransdatter,Sigrid Undset
+251,983,The Tin Drum,GŸnter Grass,98,The Tin Drum,GŸnter Grass
+252,1077,Harriet the Spy,Louise Fitzhugh,2408,Harriet the Spy,Louise Fitzhugh
+253,1104,The Red Badge of Courage - Annotated [Enriched Classics],Stephen Crane,308,The Red Badge of Courage,Stephen Crane
+254,1914,Guns  Germs  and Steel: The Fates of Human Societies,Jared Diamond,448,Guns  Germs  and Steel,Jared Diamond
+255,44,The Princess Bride,William Goldman,579,The Princess Bride,William Goldman
+256,19,The Great Gatsby,F. Scott Fitzgerald,5,The Great Gatsby,F. Scott Fitzgerald
+257,1948,The Fall of the House of Usher and Other Tales,Edgar Allan Poe,991,The Fall of the House of Usher,Edgar Allan Poe
+258,765,The Hunt for Red October (Jack Ryan  #3),Tom Clancy,2388,The Hunt for Red October,Tom Clancy
+259,202,The Neverending Story,Michael Ende,1310,The Neverending Story,Michael Ende
+260,598,Dandelion Wine,Ray Bradbury,2392,Dandelion Wine,Ray Bradbury
+261,2143,Under the Volcano,Malcolm Lowry,108,Under the Volcano,Malcolm Lowry
+262,1631,The Second Sex,Simone de Beauvoir,384,The Second Sex,Simone de Beauvoir
+263,79,The Color Purple,Alice Walker,55,The Color Purple,Alice Walker
+264,385,To the Lighthouse,Virginia Woolf,31,To the Lighthouse,Virginia Woolf
+265,98,The Poisonwood Bible,Barbara Kingsolver,318,The Poisonwood Bible,Barbara Kingsolver
+266,1100,The End of the Affair,Graham Greene,299,The End of the Affair,Graham Greene
+267,865,Light in August,William Faulkner,194,Light in August,William Faulkner
+268,1686,The Right Stuff,Tom Wolfe,304,The Right Stuff,Tom Wolfe
+269,336,Breakfast at Tiffany's and Three Stories,Truman Capote,335,Breakfast at Tiffany's,Truman Capote
+270,218,The Canterbury Tales,Geoffrey Chaucer,70,The Canterbury Tales,Geoffrey Chaucer
+271,200,The Mists of Avalon (Avalon  #1),Marion Zimmer Bradley,868,The Mists of Avalon,Marion Zimmer Bradley
+272,1,The Hunger Games (The Hunger Games  #1),Suzanne Collins,507,The Hunger Games,Suzanne Collins
+273,2009,Lord Jim,Joseph Conrad,147,Lord Jim,Joseph Conrad
+274,321,Midnight's Children,Salman Rushdie,34,Midnight's Children,Salman Rushdie
+275,144,The Divine Comedy,Dante Alighieri,12,The Divine Comedy,Dante Alighieri
+276,444,Sense and Sensibility,Jane Austen,844,Sense and Sensibility,Jane Austen
+277,1942,To Say Nothing of the Dog (Oxford Time Travel  #2),Connie Willis,1732,To Say Nothing of the Dog,Connie Willis
+278,915,The Pilgrim's Progress,John Bunyan,311,Pilgrim's Progress,John Bunyan
+279,2094,A Wild Sheep Chase (The Rat  #3),Haruki Murakami,1032,A Wild Sheep Chase,Haruki Murakami
+280,1042,The Red and the Black,Stendhal,46,The Red and the Black,Stendhal
+281,687,Angle of Repose,Wallace Stegner,586,Angle of Repose,Wallace Stegner
+282,521,Julius Caesar,William Shakespeare,1584,Julius Caesar,William Shakespeare
+283,873,The Maltese Falcon,Dashiell Hammett,222,The Maltese Falcon,Dashiell Hammett
+284,2231,The Pickwick Papers,Charles Dickens,245,The Pickwick Papers,Charles Dickens
+285,411,A Christmas Carol,Charles Dickens,545,A Christmas Carol,Charles Dickens
+286,304,A Separate Peace,John Knowles,636,A Separate Peace,John Knowles
+287,605,The Wasp Factory,Iain Banks,549,The Wasp Factory: A Novel,Iain Banks
+288,1238,Darkness at Noon,Arthur Koestler,338,Darkness at Noon,Arthur Koestler
+289,1150,Zorba the Greek,Nikos Kazantzakis,339,Zorba the Greek,Nikos Kazantzakis
+290,890,The Horse Whisperer,Nicholas Evans,1086,The Horse Whisperer,Nicholas Evans
+291,23,Crime and Punishment,Fyodor Dostoevsky,10,Crime and Punishment,Fyodor Dostoevsky
+292,530,Interpreter of Maladies,Jhumpa Lahiri,831,Interpreter of Maladies,Jhumpa Lahiri
+293,274,Fear and Loathing in Las Vegas,Hunter S. Thompson,158,Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream,Hunter S. Thompson
+294,349,A Fine Balance,Rohinton Mistry,405,A Fine Balance,Rohinton Mistry
+295,26,Les MisŽrables,Victor Hugo,60,Les MisŽrables,Victor Hugo
+296,721,Naked Lunch,William S. Burroughs,364,Naked Lunch,William S. Burroughs
+297,139,The Scarlet Letter,Nathaniel Hawthorne,93,The Scarlet Letter,Nathaniel Hawthorne
+298,3,Pride and Prejudice,Jane Austen,11,Pride and Prejudice,Jane Austen
+299,36,Of Mice and Men,John Steinbeck,154,Of Mice and Men,John Steinbeck
+300,758,Ethan Frome,Edith Wharton,305,Ethan Frome,Edith Wharton
+301,1028,Notes from Underground,Fyodor Dostoevsky,362,Notes from the Underground,Fyodor Dostoevsky
+302,275,The Sound and the Fury,William Faulkner,27,The Sound and the Fury,William Faulkner
+303,172,The Three Musketeers,Alexandre Dumas,240,The Three Musketeers,Alexandre Dumas
+304,2074,Death in Venice,Thomas Mann,438,Death in Venice,Thomas Mann
+305,134,The Name of the Rose,Umberto Eco,166,The Name of the Rose,Umberto Eco
+306,1210,The White Tiger,Aravind Adiga,683,The White Tiger,Aravind Adiga
+307,986,Brave New World / Brave New World Revisited,Aldous Huxley,52,Brave New World,Aldous Huxley
+308,896,A Doll's House,Henrik Ibsen,276,A Doll's House,Henrik Ibsen
+309,562,Foucault's Pendulum,Umberto Eco,1753,Foucault's Pendulum,Umberto Eco
+310,2114,The Gulag Archipelago 1918Ð1956,Aleksandr Solzhenitsyn,309,The Gulag Archipelago,Aleksandr Solzhenitsyn
+311,317,Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus  #1),Robert M. Pirsig,892,Zen and the Art of Motorcycle Maintenance,Robert M. Pirsig
+312,1652,The Mysterious Affair at Styles (Hercule Poirot  #1),Agatha Christie,995,The Mysterious Affair at Styles,Agatha Christie
+313,693,The Shell Seekers,Rosamunde Pilcher,541,The Shell Seekers,Rosamunde Pilcher
+314,1641,Nickel and Dimed,Barbara Ehrenreich,2359,Nickel And Dimed,Barbara Ehrenreich
+315,1973,The Return of the Native,Thomas Hardy,1586,The Return of the Native,Thomas Hardy
+316,189,Murder on the Orient Express (Hercule Poirot  #10),Agatha Christie,982,Murder on the Orient Express,Agatha Christie
+317,646,Corelli's Mandolin,Louis de Bernires,559,Corelli's Mandolin,Louis de Bernires
+318,27,Lord of the Flies,William Golding,53,Lord of the Flies,William Golding
+319,352,Infinite Jest,David Foster Wallace,241,Infinite Jest,David Foster Wallace
+320,378,Northanger Abbey,Jane Austen,2307,Northanger Abbey,Jane Austen
+321,430,The Complete Poems of Emily Dickinson,Emily Dickinson,111,Poems of Emily Dickinson,Emily Dickinson
+322,68,The Bell Jar,Sylvia Plath,164,The Bell Jar,Sylvia Plath
+323,14,Wuthering Heights,Emily Bront‘,13,Wuthering Heights,Emily Bront‘
+324,1142,The Day of the Jackal,Frederick Forsyth,615,The Day of the Jackal,Frederick Forsyth
+325,771,Cold Sassy Tree,Olive Ann Burns,945,Cold Sassy Tree,Olive Ann Burns
+326,1413,The Power and the Glory,Graham Greene,583,The Power and the Glory,Graham Greene
+327,1266,The New York Trilogy (New York Trilogy #1-3),Paul Auster,1018,The New York Trilogy,Paul Auster
+328,448,The Woman in White,Wilkie Collins,306,The Woman in White,Wilkie Collins
+329,670,The Magic Mountain,Thomas Mann,49,The Magic Mountain,Thomas Mann
+330,2078,The Discovery of Heaven,Harry Mulisch,756,The Discovery of Heaven,Harry Mulisch
+331,163,The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+332,2130,Mostly Harmless (Hitchhiker's Guide to the Galaxy  #5),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+333,1334,The Mayor of Casterbridge,Thomas Hardy,353,The Mayor of Casterbridge,Thomas Hardy
+334,1883,Our Mutual Friend,Charles Dickens,294,Our Mutual Friend,Charles Dickens
+335,1367,The Third Policeman,Flann O'Brien,519,The Third Policeman,Flann O'Brien
+336,718,Jude the Obscure,Thomas Hardy,191,Jude the Obscure,Thomas Hardy
+337,2324,Written on the Body,Jeanette Winterson,1731,Written on the Body,Jeanette Winterson
+338,1826,Winesburg  Ohio,Sherwood Anderson,393,Winesburg  Ohio,Sherwood Anderson
+339,116,The Master and Margarita,Mikhail Bulgakov,83,The Master and Margarita,Mikhail Bulgakov
+340,191,The Call of the Wild,Jack London,168,The Call of the Wild,Jack London
+341,2170,Cold Comfort Farm,Stella Gibbons,365,Cold Comfort Farm,Stella Gibbons
+342,158,The Thorn Birds,Colleen McCullough,375,The Thorn Birds,Colleen McCullough
+343,749,Tender Is the Night,F. Scott Fitzgerald,220,Tender Is the Night,F. Scott Fitzgerald
+344,1616,The Talented Mr. Ripley (Ripley  #1),Patricia Highsmith,330,The Talented Mr. Ripley,Patricia Highsmith
+345,324,The English Patient,Michael Ondaatje,452,The English Patient,Michael Ondaatje
+346,2180,The Fire Next Time,James Baldwin,738,The Fire Next Time,James Baldwin
+347,926,The Razor's Edge,W. Somerset Maugham,760,The Razor's Edge,W. Somerset Maugham
+348,812,The Bonfire of the Vanities,Tom Wolfe,262,Bonfire of the Vanities,Tom Wolfe
+349,658,The Elegance of the Hedgehog,Muriel Barbery,2167,The Elegance of the Hedgehog,Muriel Barbery
+350,1680,Suite Franaise,Irne NŽmirovsky,800,Suite Franaise,Irne NŽmirovsky
+351,28,Romeo and Juliet,William Shakespeare,600,Romeo and Juliet,William Shakespeare
+352,123,Charlie and the Chocolate Factory (Charlie Bucket  #1),Roald Dahl,666,Charlie And The Chocolate Factory ,Roald Dahl
+353,678,The Story of My Life,Helen Keller,2087,The Story of My Life,Helen Keller
+354,2013,Wide Sargasso Sea,Jean Rhys,175,Wide Sargasso Sea,Jean Rhys
+355,1945,The Executioner's Song,Norman Mailer,1105,The Executioner's Song,Norman Mailer
+356,433,Of Human Bondage,W. Somerset Maugham,363,Of Human Bondage,W. Somerset Maugham
+357,517,The Glass Menagerie,Tennessee Williams,1106,The Glass Menagerie,Tennessee Williams
+358,282,Kafka on the Shore,Haruki Murakami,1328,Kafka On The Shore,Haruki Murakami
+359,512,I Capture the Castle,Dodie Smith,554,I Capture the Castle,Dodie Smith
+360,1701,Sarah  Plain and Tall (Sarah  Plain and Tall  #1),Patricia MacLachlan,2056,Sarah  Plain and Tall,Patricia MacLachlan
+361,473,Little House on the Prairie (Little House  #3),Laura Ingalls Wilder,1016,Little House on the Prairie,Laura Ingalls Wilder
+362,1856,The Mill on the Floss,George Eliot,415,The Mill on the Floss,George Eliot
+363,668,The Murder of Roger Ackroyd (Hercule Poirot  #4),Agatha Christie,372,The Murder of Roger Ackroyd,Agatha Christie
+364,394,The Age of Innocence,Edith Wharton,74,The Age of Innocence,Edith Wharton
+365,217,A Farewell to Arms,Ernest Hemingway,76,A Farewell to Arms,Ernest Hemingway
+366,728,The Portrait of a Lady,Henry James,73,The Portrait of a Lady,Henry James
+367,351,Death of a Salesman,Arthur Miller,1372,Death Of A Salesman,Arthur Miller
+368,99,The Old Man and the Sea,Ernest Hemingway,61,The Old Man and the Sea,Ernest Hemingway
+369,88,To Kill a Mockingbird,Harper Lee,25,To Kill a Mockingbird,Harper Lee
+370,4,To Kill a Mockingbird,Harper Lee,25,To Kill a Mockingbird,Harper Lee
+371,1231,I Am Legend,Richard Matheson,1084,I Am Legend,Richard Matheson
+372,455,2001: A Space Odyssey,Arthur C. Clarke,334,2001: A Space Odyssey,Arthur C. Clarke
+373,1121,The Glass Bead Game,Hermann Hesse,807,The Glass Bead Game,Hermann Hesse
+374,1267,Fathers and Sons,Ivan Turgenev,109,Fathers and Sons,Ivan Turgenev
+375,840,The House of Mirth,Edith Wharton,265,The House of Mirth,Edith Wharton
+376,536,A Wizard of Earthsea (Earthsea Cycle  #1),Ursula K. Le Guin,480,A Wizard of Earthsea,Ursula K. Le Guin
+377,241,A Confederacy of Dunces,John Kennedy Toole,151,A Confederacy of Dunces,John Kennedy Toole
+378,1217,An American Tragedy,Theodore Dreiser,213,An American Tragedy,Theodore Dreiser
+379,1553,The Savage Detectives,Roberto Bola–o,219,The Savage Detectives,Roberto Bola–o
+380,380,Waiting for Godot,Samuel Beckett,90,Waiting for Godot,Samuel Beckett
+381,356,The Virgin Suicides,Jeffrey Eugenides,2009,The Virgin Suicides,Jeffrey Eugenides
+382,62,A Tale of Two Cities,Charles Dickens,225,A Tale of Two Cities,Charles Dickens
+383,294,The Things They Carried,Tim O'Brien,227,The Things They Carried,Tim O'Brien
+384,1019,Fall on Your Knees,Ann-Marie MacDonald,2231,Fall On Your Knees,Ann-Marie MacDonald
+385,2161,A Hero of Our Time,Mikhail Lermontov,511,A Hero of Our Time,Mikhail Lermontov
+386,549,A Brief History of Time,Stephen Hawking,613,A Brief History of Time,Stephen Hawking
+387,457,Cry  the Beloved Country,Alan Paton,410,Cry  the Beloved Country,Alan Paton
+388,997,A Town Like Alice,Nevil Shute,1097,A Town Like Alice,Nevil Shute
+389,40,Brave New World,Aldous Huxley,52,Brave New World,Aldous Huxley
+390,1607,Beyond Good and Evil,Friedrich Nietzsche,456,Beyond Good and Evil,Friedrich Nietzsche
+391,196,The Phantom Tollbooth,Norton Juster,333,The Phantom Tollbooth,Norton Juster
+392,1069,The Tale of Genji,Murasaki Shikibu,150,The Tale of Genji,Murasaki Shikibu
+393,1535,My Name Is Red,Orhan Pamuk,673,My Name is Red,Orhan Pamuk
+394,652,Howl and Other Poems,Allen Ginsberg,970,Howl and Other Poems,Allen Ginsberg
+395,918,Eugene Onegin,Alexander Pushkin,424,Eugene Onegin,Alexander Pushkin
+396,832,The Turn of the Screw,Henry James,525,The Turn of the Screw,Henry James
+397,85,A Clockwork Orange,Anthony Burgess,97,A Clockwork Orange,Anthony Burgess
+398,556,Gravity's Rainbow,Thomas Pynchon,248,Gravity's Rainbow,Thomas Pynchon
+399,24,Memoirs of a Geisha,Arthur Golden,713,Memoirs of a Geisha,Arthur Golden
+400,242,The Sun Also Rises,Ernest Hemingway,51,The Sun Also Rises,Ernest Hemingway
+401,966,The Crying of Lot 49,Thomas Pynchon,563,The Crying of Lot 49,Thomas Pynchon
+402,546,All the King's Men,Robert Penn Warren,126,All the King's Men,Robert Penn Warren
+403,309,The Grapes of Wrath,John Steinbeck,26,The Grapes of Wrath,John Steinbeck
+404,1983,Homage to Catalonia,George Orwell,264,Homage to Catalonia,George Orwell
+405,96,Interview with the Vampire (The Vampire Chronicles  #1),Anne Rice,912,Interview with the Vampire,Anne Rice
+406,1671,The Sense of an Ending,Julian Barnes,351,The Sense of an Ending,Julian Barnes
+407,438,North and South,Elizabeth Gaskell,1522,North and South,Elizabeth Gaskell
+408,1126,Bastard Out of Carolina,Dorothy Allison,432,Bastard Out of Carolina,Dorothy Allison
+409,524,Cyrano de Bergerac,Edmond Rostand,694,Cyrano de Bergerac,Edmond Rostand
+410,2190,Harold and the Purple Crayon (Harold  #1),Crockett Johnson,2414,Harold and the Purple Crayon,Crockett Johnson
+411,903,The Man in the High Castle,Philip K. Dick,1715,The Man in the High Castle,Philip K. Dick
+412,833,Sometimes a Great Notion,Ken Kesey,1273,Sometimes a Great Notion,Ken Kesey
+413,284,The Complete Sherlock Holmes,Arthur Conan Doyle,133,The Complete Sherlock Holmes,Arthur Conan Doyle
+414,1001,The Spy Who Came In from the Cold (George Smiley  #3),John le CarrŽ,441,The Spy Who Came in From the Cold,John le CarrŽ
+415,2198,The War of the End of the World,Mario Vargas Llosa,444,The War of the End of the World,Mario Vargas Llosa
+416,125,The Very Hungry Caterpillar,Eric Carle,806,The Very Hungry Caterpillar,Eric Carle
+417,179,The Haunting of Hill House,Shirley Jackson,483,The Haunting of Hill House,Shirley Jackson
+418,252,The Wind in the Willows,Kenneth Grahame,128,The Wind in the Willows,Kenneth Grahame
+419,1606,This Side of Paradise,F. Scott Fitzgerald,1173,This Side of Paradise,F. Scott Fitzgerald
+420,122,The Adventures of Tom Sawyer,Mark Twain,409,The Adventures of Tom Sawyer,Mark Twain
+421,338,The Origin of Species,Charles Darwin,122,On the Origin of Species,Charles Darwin
+422,13,Gone with the Wind,Margaret Mitchell,62,Gone With the Wind,Margaret Mitchell
+423,1567,The Last Temptation of Christ,Nikos Kazantzakis,2233,The Last Temptation of Christ,Nikos Kazantzakis
+424,78,The Girl with the Dragon Tattoo (Millennium  #1),Stieg Larsson,2445,The Girl with the Dragon Tattoo,Stieg Larsson
+425,2095,At Swim-Two-Birds,Flann O'Brien,763,At Swim Two-Birds,Flann O'Brien
+426,837,Thus Spoke Zarathustra,Friedrich Nietzsche,263,Thus Spake Zarathustra,Friedrich Nietzsche
+427,1900,The Man Without Qualities,Robert Musil,188,The Man Without Qualities,Robert Musil
+428,57,The Adventures of Huckleberry Finn,Mark Twain,18,The Adventures of Huckleberry Finn,Mark Twain
+429,2359,Between the World and Me,Ta-Nehisi Coates,1124,Between the World and Me,Ta-Nehisi Coates
+430,83,The Brothers Karamazov,Fyodor Dostoevsky,19,The Brothers Karamazov,Fyodor Dostoevsky
+431,417,Snow Falling on Cedars,David Guterson,665,Snow Falling on Cedars,David Guterson
+432,1767,The Lottery and Other Stories,Shirley Jackson,1441,The Lottery and Other Stories,Shirley Jackson
+433,467,The Left Hand of Darkness,Ursula K. Le Guin,542,The Left Hand Of Darkness,Ursula K. Le Guin
+434,811,Journey to the End of the Night,Louis-Ferdinand CŽline,107,Journey to the End of The Night,Louis-Ferdinand CŽline
+435,31,The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1),Douglas Adams,115,The Hitchhiker's Guide to the Galaxy,Douglas Adams
+436,900,Songs of Innocence and of Experience,William Blake,865,Songs of Innocence and Experience,William Blake
+437,413,Me Talk Pretty One Day,David Sedaris,1194,Me Talk Pretty One Day,David Sedaris
+438,1564,In Search of Lost Time,Marcel Proust,3,In Search of Lost Time,Marcel Proust
+439,453,Johnny Got His Gun,Dalton Trumbo,2346,Johnny Got His Gun,Dalton Trumbo
+440,126,The Count of Monte Cristo,Alexandre Dumas,136,The Count of Monte Cristo,Alexandre Dumas
+441,340,A Streetcar Named Desire,Tennessee Williams,1323,A Streetcar Named Desire,Tennessee Williams
+442,904,Smilla's Sense of Snow,Peter H¿eg,1047,Smilla's Sense of Snow: A Novel,Peter H¿eg
+443,329,Like Water for Chocolate,Laura Esquivel,810,Like Water For Chocolate,Laura Esquivel
+444,2316,Danny the Champion of the World,Roald Dahl,1322,Danny  The Champion Of The World,Roald Dahl
+445,11,The Picture of Dorian Gray,Oscar Wilde,162,The Picture of Dorian Gray,Oscar Wilde
+446,167,The Importance of Being Earnest,Oscar Wilde,788,The Importance of Being Earnest,Oscar Wilde
+447,277,For Whom the Bell Tolls,Ernest Hemingway,54,For Whom the Bell Tolls,Ernest Hemingway
+448,503,No Country for Old Men,Cormac McCarthy,1286,No Country for Old Men,Cormac McCarthy
+449,2397,The Autobiography of Benjamin Franklin,Benjamin Franklin,1057,The Autobiography of Benjamin Franklin,Benjamin Franklin
+450,1113,The Death of Ivan Ilych,Leo Tolstoy,370,The Death of Ivan Ilyich,Leo Tolstoy
+451,1386,Half of a Yellow Sun,Chimamanda Ngozi Adichie,447,Half of a Yellow Sun,Chimamanda Ngozi Adichie
+452,132,The Unbearable Lightness of Being,Milan Kundera,117,The Unbearable Lightness of Being,Milan Kundera
+453,368,I Know Why the Caged Bird Sings (Maya Angelou's Autobiography  #1),Maya Angelou,257,I Know Why the Caged Bird Sings,Maya Angelou
+454,136,Where the Red Fern Grows,Wilson Rawls,1321,Where the Red Fern Grows,Wilson Rawls
+455,461,Far From the Madding Crowd,Thomas Hardy,635,Far from the Madding Crowd,Thomas Hardy
+456,590,Twenty Thousand Leagues Under the Sea (Captain Nemo  #2),Jules Verne,200,Twenty Thousand Leagues Under the Sea,Jules Verne
+457,1306,A Good Man Is Hard to Find and Other Stories,Flannery O'Connor,576,A Good Man Is Hard to Find,Flannery O'Connor
+458,1244,The Rise and Fall of the Third Reich: A History of Nazi Germany,William L. Shirer,932,The Rise and Fall of the Third Reich,William L. Shirer
+459,56,Where the Wild Things Are,Maurice Sendak,271,Where the Wild Things Are,Maurice Sendak
+460,211,The Diary of a Young Girl,Anne Frank,124,The Diary of a Young Girl,Anne Frank
+461,1051,When Breath Becomes Air,Paul Kalanithi,1365,When Breath Becomes Air,Paul Kalanithi
+462,261,The Wind-Up Bird Chronicle,Haruki Murakami,205,The Wind-Up Bird Chronicle,Haruki Murakami
+463,489,Little House in the Big Woods (Little House  #1),Laura Ingalls Wilder,1172,Little House In The Big Woods,Laura Ingalls Wilder
+464,782,The Sorrows of Young Werther,Johann Wolfgang von Goethe,670,The Sorrows of Young Werther,Johann Wolfgang von Goethe
+465,171,The Wonderful Wizard of Oz (Oz  #1),L. Frank Baum,272,The Wonderful Wizard of Oz,L. Frank Baum
+466,302,The Hunchback of Notre-Dame,Victor Hugo,439,The Hunchback of Notre-Dame,Victor Hugo
+467,854,Roll of Thunder  Hear My Cry (Logans  #4),Mildred D. Taylor,461,Roll of Thunder  Hear My Cry,Mildred D. Taylor
+468,1432,The Heart Is a Lonely Hunter,Carson McCullers,260,The Heart Is A Lonely Hunter,Carson McCullers
+469,871,The Rime of the Ancient Mariner,Samuel Taylor Coleridge,653,The Rime of the Ancient Mariner,Samuel Taylor Coleridge
+470,1696,Alice's Adventures in Wonderland,Lewis Carroll,9,Alice's Adventures in Wonderland,Lewis Carroll
+471,1521,Thinking  Fast and Slow,Daniel Kahneman,2377,Thinking  Fast and Slow,Daniel Kahneman
+472,1292,Down and Out in Paris and London,George Orwell,1167,Down and Out in Paris and London,George Orwell
+473,1058,The Tenant of Wildfell Hall,Anne Bront‘,936,The Tenant of Wildfell Hall,Anne Bront‘
+474,313,The Amazing Adventures of Kavalier & Clay,Michael Chabon,170,The Amazing Adventures of Kavalier and Clay,Michael Chabon
+475,360,Jonathan Strange & Mr. Norrell,Susanna Clarke,901,Jonathan Strange and Mr Norrell,Susanna Clarke
+476,280,Stranger in a Strange Land,Robert A. Heinlein,345,Stranger in a Strange Land,Robert A. Heinlein
+477,703,Around the World in Eighty Days,Jules Verne,2119,Around the World in Eighty Days,Jules Verne
+478,1624,Long Day's Journey into Night,Eugene O'Neill,996,Long Day's Journey Into Night,Eugene O'Neill
+479,957,Journey to the Center of the Earth,Jules Verne,1730,Journey to the Center of the Earth,Jules Verne
+480,534,Sapiens: A Brief History of Humankind,Yuval Noah Harari,1156,Sapiens: A Brief History of Humankind,Yuval Noah Harari
+481,2032,The Year of Magical Thinking,Joan Didion,307,The Year of Magical Thinking,Joan Didion
+482,1290,The Prime of Miss Jean Brodie,Muriel Spark,186,The Prime of Miss Jean Brodie,Muriel Spark
+483,2372,The Man Who Mistook His Wife for a Hat and Other Clinical Tales,Oliver Sacks,906,The Man Who Mistook His Wife for a Hat,Oliver Sacks
+484,1177,The French Lieutenant's Woman,John Fowles,597,The French Lieutenant's Woman,John Fowles
+485,592,If on a Winter's Night a Traveler,Italo Calvino,211,If on a Winter's Night a Traveller,Italo Calvino
+486,1917,What We Talk About When We Talk About Love,Raymond Carver,1384,What We Talk About When We Talk About Love,Raymond Carver
+487,87,And Then There Were None,Agatha Christie,316,And Then There Were None,Agatha Christie
+488,148,All Quiet on the Western Front,Erich Maria Remarque,130,All Quiet on the Western Front,Erich Maria Remarque
+489,2245,The Hero With a Thousand Faces,Joseph Campbell,1107,The Hero with a Thousand Faces,Joseph Campbell
+490,1766,The Electric Kool-Aid Acid Test,Tom Wolfe,386,The Electric Kool-Aid Acid Test,Tom Wolfe
+491,550,One Day in the Life of Ivan Denisovich,Aleksandr Solzhenitsyn,356,One Day in the Life of Ivan Denisovich,Aleksandr Solzhenitsyn
+492,166,Their Eyes Were Watching God,Zora Neale Hurston,81,Their Eyes Were Watching God,Zora Neale Hurston
+493,586,We Have Always Lived in the Castle,Shirley Jackson,691,We Have Always Lived in the Castle,Shirley Jackson
+494,128,The Curious Incident of the Dog in the Night-Time,Mark Haddon,1080,The Curious Incident of the Dog in the Night-time,Mark Haddon
+495,1783,Oranges Are Not the Only Fruit,Jeanette Winterson,1095,Oranges are not the only Fruit,Jeanette Winterson
+496,647,A Heartbreaking Work of Staggering Genius,Dave Eggers,1023,A Heartbreaking Work of Staggering Genius,Dave Eggers
+497,954,The Absolutely True Diary of a Part-Time Indian,Sherman Alexie,1209,The Absolutely True Diary of a Part-Time Indian,Sherman Alexie
+498,80,One Flew Over the Cuckoo's Nest,Ken Kesey,106,One Flew Over the Cuckoo's Nest,Ken Kesey
+499,743,Wild Swans: Three Daughters of China,Jung Chang,1238,Wild Swans: Three Daughters of China,Jung Chang
+500,1123,A Long Way Gone: Memoirs of a Boy Soldier,Ishmael Beah,751,A Long Way Gone: Memoirs of a Boy Soldier,Ishmael Beah
+501,657,How to Win Friends and Influence People,Dale Carnegie,1717,How to Win Friends and Influence People,Dale Carnegie
+502,922,Dirk Gently's Holistic Detective Agency (Dirk Gently  #1),Douglas Adams,2203,Dirk Gently's Holistic Detective Agency,Douglas Adams
+503,1705,A Modest Proposal and Other Satirical Works,Jonathan Swift,1716,A Modest Proposal and Other Satirical Works,Jonathan Swift
+504,2027,Team of Rivals: The Political Genius of Abraham Lincoln,Doris Kearns Goodwin,1371,Team of Rivals: The Political Genius of Abraham Lincoln,Doris Kearns Goodwin
+505,354,Unbroken: A World War II Story of Survival  Resilience and Redemption,Laura Hillenbrand,1370,Unbroken: A World War II Story of Survival  Resilience  and Redemption,Laura Hillenbrand
+506,1300,Surely You're Joking  Mr. Feynman!: Adventures of a Curious Character,Richard P. Feynman,1682,"Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",Richard P. Feynman
+507,1947,The Road Less Traveled: A New Psychology of Love  Traditional Values and Spiritual Growth,M. Scott Peck,1064,The Road Less Travelled: A New Psychology of Love  Traditional Values and Spiritual Growth,M. Scott Peck
